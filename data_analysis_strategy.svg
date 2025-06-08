@@ -10,4 +10,100 @@
   </linearGradient>
   <rect x="0" y="0" width="1280" height="110" fill="url(#headerGradient)"/>
   <text x="640" y="65" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">美团外卖商家数据分析策略</text>
-</rect></svg>
+
+  <!-- 左上模块：点金推广数据分析 -->
+  <rect x="40" y="130" width="600" height="300" rx="15" ry="15" fill="#4CAF50"/>
+  <text x="340" y="165" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">点金推广数据分析</text>
+  <line x1="140" y1="180" x2="540" y2="180" stroke="white" stroke-width="2"/>
+  
+  <!-- 点金推广内容 - 左上卡片1 -->
+  <rect x="60" y="200" width="280" height="210" rx="10" ry="10" fill="#66BB6A"/>
+  <text x="200" y="230" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">核心数据指标</text>
+  <text x="80" y="260" font-family="Arial" font-size="16" fill="white">• 单次进店消费</text>
+  <text x="80" y="290" font-family="Arial" font-size="16" fill="white">• 推广进店率</text>
+  <text x="80" y="320" font-family="Arial" font-size="16" fill="white">• 拉新效果</text>
+  <text x="80" y="350" font-family="Arial" font-size="16" fill="white">• 曝光排名</text>
+  <text x="80" y="380" font-family="Arial" font-size="16" fill="white">• 转化率与复购率</text>
+  
+  <!-- 点金推广内容 - 左上卡片2 -->
+  <rect x="360" y="200" width="260" height="210" rx="10" ry="10" fill="#81C784"/>
+  <text x="490" y="230" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">优化策略</text>
+  <text x="380" y="260" font-family="Arial" font-size="16" fill="white">• 避免过高出价</text>
+  <text x="380" y="290" font-family="Arial" font-size="16" fill="white">• 匀速投放控制预算</text>
+  <text x="380" y="320" font-family="Arial" font-size="16" fill="white">• 根据品类确定推广时间</text>
+  <text x="380" y="350" font-family="Arial" font-size="16" fill="white">• 精细化设置新老用户</text>
+  <text x="380" y="380" font-family="Arial" font-size="16" fill="white">• 针对性设置商圈区域</text>
+
+  <!-- 右上模块：铂金展位数据分析 -->
+  <rect x="660" y="130" width="580" height="300" rx="15" ry="15" fill="#2196F3"/>
+  <text x="950" y="165" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">铂金展位数据分析</text>
+  <line x1="760" y1="180" x2="1140" y2="180" stroke="white" stroke-width="2"/>
+  
+  <!-- 铂金展位内容 - 右上卡片1 -->
+  <rect x="680" y="200" width="260" height="210" rx="10" ry="10" fill="#64B5F6"/>
+  <text x="810" y="230" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">适用商家分析</text>
+  <text x="700" y="260" font-family="Arial" font-size="16" fill="white">• 品牌商家（高效）</text>
+  <text x="700" y="290" font-family="Arial" font-size="16" fill="white">• 普通单店（谨慎）</text>
+  <text x="700" y="320" font-family="Arial" font-size="16" fill="white">• 高端或高利润商品商家</text>
+  <text x="700" y="350" font-family="Arial" font-size="16" fill="white">• 小城市知名度高商家</text>
+  <text x="700" y="380" font-family="Arial" font-size="16" fill="white">• 点击成本约5.15元</text>
+
+  <!-- 铂金展位内容 - 右上卡片2 -->
+  <rect x="960" y="200" width="260" height="210" rx="10" ry="10" fill="#90CAF9"/>
+  <text x="1090" y="230" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">投放时段分析</text>
+  <text x="980" y="260" font-family="Arial" font-size="16" fill="white">• 晚间19-22点（高峰期）</text>
+  <text x="980" y="290" font-family="Arial" font-size="16" fill="white">• 工作日午休时间（12-13点）</text>
+  <text x="980" y="320" font-family="Arial" font-size="16" fill="white">• 休息日下午（14-17点）</text>
+  <text x="980" y="350" font-family="Arial" font-size="16" fill="white">• 针对年轻人（20-23点）</text>
+  <text x="980" y="380" font-family="Arial" font-size="16" fill="white">• 促销活动期间（全天）</text>
+
+  <!-- 左下模块：套餐数据分析 -->
+  <rect x="40" y="450" width="600" height="300" rx="15" ry="15" fill="#9C27B0"/>
+  <text x="340" y="485" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">套餐数据分析策略</text>
+  <line x1="140" y1="500" x2="540" y2="500" stroke="white" stroke-width="2"/>
+  
+  <!-- 套餐数据分析内容 - 左下卡片1 -->
+  <rect x="60" y="520" width="280" height="210" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="200" y="550" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">套餐效果分析</text>
+  <text x="80" y="580" font-family="Arial" font-size="16" fill="white">• 提高下单转化率</text>
+  <text x="80" y="610" font-family="Arial" font-size="16" fill="white">• 提高客单价</text>
+  <text x="80" y="640" font-family="Arial" font-size="16" fill="white">• 提高活动报名转化</text>
+  <text x="80" y="670" font-family="Arial" font-size="16" fill="white">• 带动新品销售</text>
+  <text x="80" y="700" font-family="Arial" font-size="16" fill="white">• 带给商家更高利润</text>
+  
+  <!-- 套餐数据分析内容 - 左下卡片2 -->
+  <rect x="360" y="520" width="260" height="210" rx="10" ry="10" fill="#CE93D8"/>
+  <text x="490" y="550" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">套餐定价策略</text>
+  <text x="380" y="580" font-family="Arial" font-size="16" fill="white">• 食材与加工成本核算</text>
+  <text x="380" y="610" font-family="Arial" font-size="16" fill="white">• 参考竞品定价</text>
+  <text x="380" y="640" font-family="Arial" font-size="16" fill="white">• 尾数定价（29.9元）</text>
+  <text x="380" y="670" font-family="Arial" font-size="16" fill="white">• 价格略低于单品相加</text>
+  <text x="380" y="700" font-family="Arial" font-size="16" fill="white">• 定价有层次（多档位）</text>
+
+  <!-- 右下模块：店铺数据分析 -->
+  <rect x="660" y="450" width="580" height="300" rx="15" ry="15" fill="#FF5722"/>
+  <text x="950" y="485" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">店铺数据分析策略</text>
+  <line x1="760" y1="500" x2="1140" y2="500" stroke="white" stroke-width="2"/>
+  
+  <!-- 店铺数据分析内容 - 右下卡片1 -->
+  <rect x="680" y="520" width="260" height="210" rx="10" ry="10" fill="#FF8A65"/>
+  <text x="810" y="550" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">分类优化分析</text>
+  <text x="700" y="580" font-family="Arial" font-size="16" fill="white">• 菜品按品类分类</text>
+  <text x="700" y="610" font-family="Arial" font-size="16" fill="white">• 按场景分类（早餐/午餐）</text>
+  <text x="700" y="640" font-family="Arial" font-size="16" fill="white">• 按人数分类（3-5人餐）</text>
+  <text x="700" y="670" font-family="Arial" font-size="16" fill="white">• 控制分类在8个以内</text>
+  <text x="700" y="700" font-family="Arial" font-size="16" fill="white">• 添加有吸引力的修饰词</text>
+
+  <!-- 店铺数据分析内容 - 右下卡片2 -->
+  <rect x="960" y="520" width="260" height="210" rx="10" ry="10" fill="#FFAB91"/>
+  <text x="1090" y="550" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">运营数据优化</text>
+  <text x="980" y="580" font-family="Arial" font-size="16" fill="white">• 开通放心吃和准时宝</text>
+  <text x="980" y="610" font-family="Arial" font-size="16" fill="white">• 优化营业时长与预订单</text>
+  <text x="980" y="640" font-family="Arial" font-size="16" fill="white">• 优化店名与logo设计</text>
+  <text x="980" y="670" font-family="Arial" font-size="16" fill="white">• 定期更新店内海报</text>
+  <text x="980" y="700" font-family="Arial" font-size="16" fill="white">• 关注评分与用户反馈</text>
+
+  <!-- 底部流程步骤 -->
+  <rect x="40" y="770" width="1200" height="30" rx="10" ry="10" fill="#FFC107"/>
+  <text x="640" y="790" font-family="Arial" font-size="18" font-weight="bold" fill="#333" text-anchor="middle">数据分析→策略优化→实施调整→效果监测→持续优化</text>
+</svg>
