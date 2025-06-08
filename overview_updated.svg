@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="780" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1280" height="780" fill="#f5f5f5"/>
+  
+  <!-- 标题区域 -->
+  <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#FF5722"/>
+    <stop offset="100%" style="stop-color:#FF9800"/>
+  </linearGradient>
+  <rect x="0" y="0" width="1280" height="110" fill="url(#headerGradient)"/>
+  <text x="640" y="55" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">呈尚策划 美团运营知识手册</text>
+  <text x="640" y="95" font-family="Arial" font-size="22" fill="white" text-anchor="middle">外卖平台商家优化指南</text>
+  
+  <!-- 核心运营工具区域 -->
+  <rect x="40" y="130" width="750" height="270" rx="15" ry="15" fill="#9C27B0"/>
+  <text x="395" y="165" font-family="Arial" font-size="28" font-weight="bold" fill="white" text-anchor="middle">核心运营工具</text>
+  <line x1="130" y1="180" x2="660" y2="180" stroke="white" stroke-width="2"/>
+  
+  <!-- 天天神券 -->
+  <rect x="60" y="200" width="220" height="85" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="170" y="230" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">天天神券</text>
+  <text x="70" y="255" font-family="Arial" font-size="16" fill="white">• 优惠券管理</text>
+  <text x="70" y="280" font-family="Arial" font-size="16" fill="white">• 提高购买转化</text>
+  
+  <!-- 店铺活动 -->
+  <rect x="300" y="200" width="220" height="85" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="410" y="230" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">店铺活动</text>
+  <text x="310" y="255" font-family="Arial" font-size="16" fill="white">• 满减/折扣</text>
+  <text x="310" y="280" font-family="Arial" font-size="16" fill="white">• 提高下单率</text>
+  
+  <!-- 点金推广 -->
+  <rect x="540" y="200" width="220" height="85" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="650" y="230" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">点金推广</text>
+  <text x="550" y="255" font-family="Arial" font-size="16" fill="white">• 提高店铺曝光</text>
+  <text x="550" y="280" font-family="Arial" font-size="16" fill="white">• CPC计费模式</text>
+  
+  <!-- 铂金展位 -->
+  <rect x="60" y="300" width="220" height="85" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="170" y="330" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">铂金展位</text>
+  <text x="70" y="355" font-family="Arial" font-size="16" fill="white">• 品牌推广利器</text>
+  <text x="70" y="380" font-family="Arial" font-size="16" fill="white">• 提高品牌曝光</text>
+  
+  <!-- 粉丝群 -->
+  <rect x="300" y="300" width="220" height="85" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="410" y="330" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">粉丝群</text>
+  <text x="310" y="355" font-family="Arial" font-size="16" fill="white">• 提高用户黏性</text>
+  <text x="310" y="380" font-family="Arial" font-size="16" fill="white">• 促进复购率</text>
+  
+  <!-- 套餐优化 -->
+  <rect x="540" y="300" width="220" height="85" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="650" y="330" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">套餐优化</text>
+  <text x="550" y="355" font-family="Arial" font-size="16" fill="white">• 提升客单价</text>
+  <text x="550" y="380" font-family="Arial" font-size="16" fill="white">• 优化菜单结构</text>
+  
+  <!-- 店铺设置区域 -->
+  <rect x="810" y="130" width="430" height="270" rx="15" ry="15" fill="#2196F3"/>
+  <text x="1025" y="165" font-family="Arial" font-size="28" font-weight="bold" fill="white" text-anchor="middle">店铺设置</text>
+  <line x1="875" y1="180" x2="1175" y2="180" stroke="white" stroke-width="2"/>
+  
+  <!-- 配送规则 -->
+  <rect x="830" y="200" width="390" height="85" rx="10" ry="10" fill="#64B5F6"/>
+  <text x="1025" y="230" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">配送规则</text>
+  <text x="850" y="255" font-family="Arial" font-size="16" fill="white">• 距离/配送费用</text>
+  <text x="850" y="280" font-family="Arial" font-size="16" fill="white">• 时段影响范围</text>
+  
+  <!-- 店铺装修 -->
+  <rect x="830" y="300" width="390" height="85" rx="10" ry="10" fill="#64B5F6"/>
+  <text x="1025" y="330" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">店铺装修</text>
+  <text x="850" y="355" font-family="Arial" font-size="16" fill="white">• 分类/产品优化</text>
+  <text x="850" y="380" font-family="Arial" font-size="16" fill="white">• 提升用户体验</text>
+  
+  <!-- 商家运营策略区域 -->
+  <rect x="40" y="420" width="1200" height="180" rx="15" ry="15" fill="#4CAF50"/>
+  <text x="640" y="455" font-family="Arial" font-size="28" font-weight="bold" fill="white" text-anchor="middle">商家运营策略</text>
+  <line x1="300" y1="470" x2="980" y2="470" stroke="white" stroke-width="2"/>
+  
+  <!-- 点金推广策略 -->
+  <rect x="60" y="490" width="180" height="95" rx="10" ry="10" fill="#66BB6A"/>
+  <text x="150" y="515" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">点金推广策略</text>
+  <text x="70" y="540" font-family="Arial" font-size="16" fill="white">• 精准出价</text>
+  <text x="70" y="565" font-family="Arial" font-size="16" fill="white">• 高峰期投放</text>
+  
+  <!-- 铂金展位策略 -->
+  <rect x="255" y="490" width="180" height="95" rx="10" ry="10" fill="#66BB6A"/>
+  <text x="345" y="515" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">铂金展位策略</text>
+  <text x="265" y="540" font-family="Arial" font-size="16" fill="white">• 品牌商家优先</text>
+  <text x="265" y="565" font-family="Arial" font-size="16" fill="white">• 投放时段优化</text>
+  
+  <!-- 套餐设计策略 -->
+  <rect x="450" y="490" width="180" height="95" rx="10" ry="10" fill="#66BB6A"/>
+  <text x="540" y="515" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">套餐设计策略</text>
+  <text x="460" y="540" font-family="Arial" font-size="16" fill="white">• 合理搭配</text>
+  <text x="460" y="565" font-family="Arial" font-size="16" fill="white">• 分层定价</text>
+  
+  <!-- 店铺装修策略 -->
+  <rect x="645" y="490" width="180" height="95" rx="10" ry="10" fill="#66BB6A"/>
+  <text x="735" y="515" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">店铺装修策略</text>
+  <text x="655" y="540" font-family="Arial" font-size="16" fill="white">• 菜单分类优化</text>
+  <text x="655" y="565" font-family="Arial" font-size="16" fill="white">• 名称与标签</text>
+  
+  <!-- 活动组合策略 -->
+  <rect x="840" y="490" width="180" height="95" rx="10" ry="10" fill="#66BB6A"/>
+  <text x="930" y="515" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">活动组合策略</text>
+  <text x="850" y="540" font-family="Arial" font-size="16" fill="white">• 满减+折扣</text>
+  <text x="850" y="565" font-family="Arial" font-size="16" fill="white">• 新客+返券</text>
+  
+  <!-- 数据分析策略 -->
+  <rect x="1035" y="490" width="180" height="95" rx="10" ry="10" fill="#66BB6A"/>
+  <text x="1125" y="515" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">数据分析策略</text>
+  <text x="1045" y="540" font-family="Arial" font-size="16" fill="white">• 用户行为</text>
+  <text x="1045" y="565" font-family="Arial" font-size="16" fill="white">• 转化率优化</text>
+  
+  <!-- 运营核心指标区域 -->
+  <rect x="40" y="620" width="1200" height="120" rx="15" ry="15" fill="#3F51B5"/>
+  <text x="640" y="655" font-family="Arial" font-size="28" font-weight="bold" fill="white" text-anchor="middle">运营核心指标</text>
+  <line x1="300" y1="670" x2="980" y2="670" stroke="white" stroke-width="2"/>
+  
+  <!-- 指标项 -->
+  <rect x="60" y="685" width="130" height="40" rx="5" ry="5" fill="#5C6BC0"/>
+  <text x="125" y="710" font-family="Arial" font-size="16" font-weight="bold" fill="white" text-anchor="middle">客单价</text>
+  
+  <rect x="205" y="685" width="130" height="40" rx="5" ry="5" fill="#5C6BC0"/>
+  <text x="270" y="710" font-family="Arial" font-size="16" font-weight="bold" fill="white" text-anchor="middle">转化率</text>
+  
+  <rect x="350" y="685" width="130" height="40" rx="5" ry="5" fill="#5C6BC0"/>
+  <text x="415" y="710" font-family="Arial" font-size="16" font-weight="bold" fill="white" text-anchor="middle">曝光量</text>
+  
+  <rect x="495" y="685" width="130" height="40" rx="5" ry="5" fill="#5C6BC0"/>
+  <text x="560" y="710" font-family="Arial" font-size="16" font-weight="bold" fill="white" text-anchor="middle">复购率</text>
+  
+  <rect x="640" y="685" width="130" height="40" rx="5" ry="5" fill="#5C6BC0"/>
+  <text x="705" y="710" font-family="Arial" font-size="16" font-weight="bold" fill="white" text-anchor="middle">店铺评分</text>
+  
+  <rect x="785" y="685" width="130" height="40" rx="5" ry="5" fill="#5C6BC0"/>
+  <text x="850" y="710" font-family="Arial" font-size="16" font-weight="bold" fill="white" text-anchor="middle">投入产出比</text>
+  
+  <rect x="930" y="685" width="130" height="40" rx="5" ry="5" fill="#5C6BC0"/>
+  <text x="995" y="710" font-family="Arial" font-size="16" font-weight="bold" fill="white" text-anchor="middle">扣点优化</text>
+  
+  <rect x="1075" y="685" width="130" height="40" rx="5" ry="5" fill="#5C6BC0"/>
+  <text x="1140" y="710" font-family="Arial" font-size="16" font-weight="bold" fill="white" text-anchor="middle">用户体验</text>
+  
+  <!-- 底部信息 - 修复重叠问题 -->
+  <rect x="40" y="755" width="1200" height="30" rx="10" ry="10" fill="#FF9800"/>
+  <text x="640" y="775" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">美团外卖平台运营优化的核心：产品质量、服务体验、营销策略三位一体</text>
+</svg>
