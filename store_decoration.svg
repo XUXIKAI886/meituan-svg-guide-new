@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="780" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1280" height="780" fill="#f5f5f5"/>
+  
+  <!-- 标题区域 -->
+  <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#FF5722"/>
+    <stop offset="100%" style="stop-color:#FF9800"/>
+  </linearGradient>
+  <rect x="0" y="0" width="1280" height="110" fill="url(#headerGradient)"/>
+  <text x="640" y="55" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">美团外卖店铺装修指南</text>
+  <text x="640" y="95" font-family="Arial" font-size="22" fill="white" text-anchor="middle">提升视觉体验与转化率的设计方案</text>
+  
+  <!-- 左上：店铺形象区域 -->
+  <rect x="40" y="130" width="600" height="280" rx="15" ry="15" fill="#3F51B5"/>
+  <text x="340" y="165" font-family="Arial" font-size="28" font-weight="bold" fill="white" text-anchor="middle">店铺关键视觉元素</text>
+  <line x1="170" y1="180" x2="510" y2="180" stroke="white" stroke-width="2"/>
+  
+  <!-- 三个店铺形象要素卡片，并排布局 -->
+  <rect x="55" y="200" width="180" height="190" rx="10" ry="10" fill="#7986CB"/>
+  <text x="145" y="230" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">店招设计</text>
+  <text x="65" y="260" font-family="Arial" font-size="16" fill="white">• 尺寸：750x300px</text>
+  <text x="65" y="290" font-family="Arial" font-size="16" fill="white">• 清晰店名标识</text>
+  <text x="65" y="320" font-family="Arial" font-size="16" fill="white">• 品牌色彩运用</text>
+  <text x="65" y="350" font-family="Arial" font-size="16" fill="white">• 使用实景照片</text>
+  <text x="65" y="380" font-family="Arial" font-size="16" fill="white">• 保持简洁风格</text>
+  
+  <rect x="250" y="200" width="180" height="190" rx="10" ry="10" fill="#9FA8DA"/>
+  <text x="340" y="230" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">店铺Logo</text>
+  <text x="260" y="260" font-family="Arial" font-size="16" fill="white">• 尺寸：360x360px</text>
+  <text x="260" y="290" font-family="Arial" font-size="16" fill="white">• 清晰品牌标志</text>
+  <text x="260" y="320" font-family="Arial" font-size="16" fill="white">• 避免复杂图案</text>
+  <text x="260" y="350" font-family="Arial" font-size="16" fill="white">• 内容居中展示</text>
+  <text x="260" y="380" font-family="Arial" font-size="16" fill="white">• 避免白色背景</text>
+  
+  <rect x="445" y="200" width="180" height="190" rx="10" ry="10" fill="#7986CB"/>
+  <text x="535" y="230" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">店铺公告</text>
+  <text x="455" y="260" font-family="Arial" font-size="16" fill="white">• 200字以内</text>
+  <text x="455" y="290" font-family="Arial" font-size="16" fill="white">• 突出特色服务</text>
+  <text x="455" y="320" font-family="Arial" font-size="16" fill="white">• 配送时间说明</text>
+  <text x="455" y="350" font-family="Arial" font-size="16" fill="white">• 促销活动信息</text>
+  <text x="455" y="380" font-family="Arial" font-size="16" fill="white">• 简明扼要表达</text>
+  
+  <!-- 右上：商品展示区域 -->
+  <rect x="660" y="130" width="580" height="280" rx="15" ry="15" fill="#9C27B0"/>
+  <text x="950" y="165" font-family="Arial" font-size="28" font-weight="bold" fill="white" text-anchor="middle">商品图片展示规范</text>
+  <line x1="780" y1="180" x2="1120" y2="180" stroke="white" stroke-width="2"/>
+  
+  <!-- 两个商品展示要素卡片 -->
+  <rect x="680" y="200" width="260" height="190" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="810" y="230" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">主图规范</text>
+  <text x="690" y="260" font-family="Arial" font-size="16" fill="white">• 尺寸：800x600px</text>
+  <text x="690" y="290" font-family="Arial" font-size="16" fill="white">• 白色/浅色背景</text>
+  <text x="690" y="320" font-family="Arial" font-size="16" fill="white">• 食品特写，需占70%空间</text>
+  <text x="690" y="350" font-family="Arial" font-size="16" fill="white">• 食物状态：新鲜完整</text>
+  <text x="690" y="380" font-family="Arial" font-size="16" fill="white">• 光线充足，色彩真实</text>
+  
+  <rect x="960" y="200" width="260" height="190" rx="10" ry="10" fill="#CE93D8"/>
+  <text x="1090" y="230" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">商品详情图</text>
+  <text x="970" y="260" font-family="Arial" font-size="16" fill="white">• 尺寸：750x750px</text>
+  <text x="970" y="290" font-family="Arial" font-size="16" fill="white">• 5-8张详情图合适</text>
+  <text x="970" y="320" font-family="Arial" font-size="16" fill="white">• 展示食材、制作过程</text>
+  <text x="970" y="350" font-family="Arial" font-size="16" fill="white">• 包装、分量对比图</text>
+  <text x="970" y="380" font-family="Arial" font-size="16" fill="white">• 避免过度美化和PS</text>
+  
+  <!-- 中下区域：店铺页面优化 -->
+  <rect x="40" y="430" width="1200" height="310" rx="15" ry="15" fill="#4CAF50"/>
+  <text x="640" y="465" font-family="Arial" font-size="28" font-weight="bold" fill="white" text-anchor="middle">店铺页面优化要点</text>
+  <line x1="440" y1="480" x2="840" y2="480" stroke="white" stroke-width="2"/>
+  
+  <!-- 四个优化要点卡片，网格布局 -->
+  <rect x="60" y="500" width="280" height="220" rx="10" ry="10" fill="#66BB6A"/>
+  <text x="200" y="530" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">菜品分类设置</text>
+  <text x="75" y="560" font-family="Arial" font-size="16" fill="white">• 控制分类数量：5-12个</text>
+  <text x="75" y="590" font-family="Arial" font-size="16" fill="white">• 热门品类置于前列</text>
+  <text x="75" y="620" font-family="Arial" font-size="16" fill="white">• 分类名：2-6个字为佳</text>
+  <text x="75" y="650" font-family="Arial" font-size="16" fill="white">• 每类商品：5-20个</text>
+  <text x="75" y="680" font-family="Arial" font-size="16" fill="white">• 避免创建空分类</text>
+  <text x="75" y="710" font-family="Arial" font-size="16" fill="white">提升浏览效率15%+</text>
+  
+  <rect x="360" y="500" width="280" height="220" rx="10" ry="10" fill="#81C784"/>
+  <text x="500" y="530" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">商品排序优化</text>
+  <text x="375" y="560" font-family="Arial" font-size="16" fill="white">• 爆款置顶展示</text>
+  <text x="375" y="590" font-family="Arial" font-size="16" fill="white">• 高利润产品前置</text>
+  <text x="375" y="620" font-family="Arial" font-size="16" fill="white">• 新品显眼位置</text>
+  <text x="375" y="650" font-family="Arial" font-size="16" fill="white">• 季节性产品及时更新</text>
+  <text x="375" y="680" font-family="Arial" font-size="16" fill="white">• 停售品及时下架</text>
+  <text x="375" y="710" font-family="Arial" font-size="16" fill="white">提升转化率18%+</text>
+  
+  <rect x="660" y="500" width="280" height="220" rx="10" ry="10" fill="#66BB6A"/>
+  <text x="800" y="530" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">商品描述优化</text>
+  <text x="675" y="560" font-family="Arial" font-size="16" fill="white">• 名称：10字内，直观明了</text>
+  <text x="675" y="590" font-family="Arial" font-size="16" fill="white">• 描述：食材、口味、特色</text>
+  <text x="675" y="620" font-family="Arial" font-size="16" fill="white">• 规格：分量、辣度、份数</text>
+  <text x="675" y="650" font-family="Arial" font-size="16" fill="white">• 避免过度营销词汇</text>
+  <text x="675" y="680" font-family="Arial" font-size="16" fill="white">• 保持诚信，不夸大宣传</text>
+  <text x="675" y="710" font-family="Arial" font-size="16" fill="white">降低顾客投诉率25%+</text>
+  
+  <rect x="960" y="500" width="280" height="220" rx="10" ry="10" fill="#81C784"/>
+  <text x="1100" y="530" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">营销元素应用</text>
+  <text x="975" y="560" font-family="Arial" font-size="16" fill="white">• 设置招牌菜标签</text>
+  <text x="975" y="590" font-family="Arial" font-size="16" fill="white">• 添加"优惠""满减"标签</text>
+  <text x="975" y="620" font-family="Arial" font-size="16" fill="white">• "新品"标识（保持14天）</text>
+  <text x="975" y="650" font-family="Arial" font-size="16" fill="white">• 人气推荐标签</text>
+  <text x="975" y="680" font-family="Arial" font-size="16" fill="white">• 限时特价醒目提示</text>
+  <text x="975" y="710" font-family="Arial" font-size="16" fill="white">提升特定品类销量30%+</text>
+  
+  <!-- 底部区域 -->
+  <linearGradient id="footerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#29B6F6"/>
+    <stop offset="100%" style="stop-color:#4FC3F7"/>
+  </linearGradient>
+  <rect x="40" y="750" width="1200" height="30" rx="10" ry="10" fill="url(#footerGradient)"/>
+  <text x="640" y="770" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">定期更新店铺视觉元素，遵循设计规范，持续优化提升用户体验</text>
+
+</svg>
