@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="780" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1280" height="780" fill="#f5f5f5"/>
+  
+  <!-- 标题区域 -->
+  <rect x="0" y="0" width="1280" height="90" fill="#673AB7"/>
+  <text x="640" y="55" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">美团外卖店铺优化指南</text>
+  <text x="640" y="85" font-family="Arial" font-size="18" fill="white" text-anchor="middle">提升用户体验与转化率的店铺装修策略</text>
+  
+  <!-- 第一行：店铺分类栏优化 -->
+  <rect x="40" y="120" width="1200" height="200" rx="15" ry="15" fill="#9C27B0"/>
+  <text x="100" y="155" font-family="Arial" font-size="24" font-weight="bold" fill="white">店铺分类栏优化技巧</text>
+  
+  <!-- 分类栏优化技巧模块 -->
+  <rect x="80" y="180" width="220" height="110" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="190" y="205" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">合理分类方法</text>
+  <line x1="100" y1="215" x2="280" y2="215" stroke="white" stroke-width="2"/>
+  <text x="190" y="235" font-family="Arial" font-size="14" fill="white" text-anchor="middle">按品类分：主打菜、热菜等</text>
+  <text x="190" y="255" font-family="Arial" font-size="14" fill="white" text-anchor="middle">按场景分：早餐、午餐等</text>
+  <text x="190" y="275" font-family="Arial" font-size="14" fill="white" text-anchor="middle">按人数分：3-5人餐、团餐等</text>
+  
+  <rect x="320" y="180" width="220" height="110" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="430" y="205" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">分类数量控制</text>
+  <line x1="340" y1="215" x2="520" y2="215" stroke="white" stroke-width="2"/>
+  <text x="430" y="235" font-family="Arial" font-size="14" fill="white" text-anchor="middle">分类控制在8个以内为最佳</text>
+  <text x="430" y="255" font-family="Arial" font-size="14" fill="white" text-anchor="middle">减少用户选择时间</text>
+  <text x="430" y="275" font-family="Arial" font-size="14" fill="white" text-anchor="middle">降低用户流失率</text>
+  
+  <rect x="560" y="180" width="220" height="110" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="670" y="205" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">分类名称优化</text>
+  <line x1="580" y1="215" x2="760" y2="215" stroke="white" stroke-width="2"/>
+  <text x="670" y="235" font-family="Arial" font-size="14" fill="white" text-anchor="middle">整齐统一，以4字为宜</text>
+  <text x="670" y="255" font-family="Arial" font-size="14" fill="white" text-anchor="middle">添加有食欲的修饰词</text>
+  <text x="670" y="275" font-family="Arial" font-size="14" fill="white" text-anchor="middle">如"活力早餐"、"美味午餐"</text>
+  
+  <rect x="800" y="180" width="220" height="110" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="910" y="205" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">推荐分类设置</text>
+  <line x1="820" y1="215" x2="1000" y2="215" stroke="white" stroke-width="2"/>
+  <text x="910" y="235" font-family="Arial" font-size="14" fill="white" text-anchor="middle">可关闭自动推荐</text>
+  <text x="910" y="255" font-family="Arial" font-size="14" fill="white" text-anchor="middle">手动调整推荐顺序</text>
+  <text x="910" y="275" font-family="Arial" font-size="14" fill="white" text-anchor="middle">热销榜—招牌菜品—折扣菜品</text>
+  
+  <rect x="1040" y="180" width="160" height="110" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="1120" y="205" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">突出菜品价值</text>
+  <line x1="1060" y1="215" x2="1180" y2="215" stroke="white" stroke-width="2"/>
+  <text x="1120" y="235" font-family="Arial" font-size="14" fill="white" text-anchor="middle">突出食材特点</text>
+  <text x="1120" y="255" font-family="Arial" font-size="14" fill="white" text-anchor="middle">修饰做法工艺</text>
+  <text x="1120" y="275" font-family="Arial" font-size="14" fill="white" text-anchor="middle">增加故事来历</text>
+  
+  <!-- 第二行：店铺装修优化 -->
+  <rect x="40" y="340" width="1200" height="200" rx="15" ry="15" fill="#2196F3"/>
+  <text x="640" y="375" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">店铺装修优化策略</text>
+  
+  <!-- 店铺装修优化模块 -->
+  <rect x="80" y="400" width="220" height="110" rx="10" ry="10" fill="#64B5F6"/>
+  <text x="190" y="425" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">店铺名称与Logo</text>
+  <line x1="100" y1="435" x2="280" y2="435" stroke="white" stroke-width="2"/>
+  <text x="190" y="455" font-family="Arial" font-size="14" fill="white" text-anchor="middle">名称格式：品牌名+核心品类</text>
+  <text x="190" y="475" font-family="Arial" font-size="14" fill="white" text-anchor="middle">如"XX川菜馆"</text>
+  <text x="190" y="495" font-family="Arial" font-size="14" fill="white" text-anchor="middle">使用专业有特点的logo</text>
+  
+  <rect x="320" y="400" width="220" height="110" rx="10" ry="10" fill="#64B5F6"/>
+  <text x="430" y="425" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">店内海报设计</text>
+  <line x1="340" y1="435" x2="520" y2="435" stroke="white" stroke-width="2"/>
+  <text x="430" y="455" font-family="Arial" font-size="14" fill="white" text-anchor="middle">最多可放3张海报</text>
+  <text x="430" y="475" font-family="Arial" font-size="14" fill="white" text-anchor="middle">用于推荐活动或新菜品</text>
+  <text x="430" y="495" font-family="Arial" font-size="14" fill="white" text-anchor="middle">定期更换增加新鲜感</text>
+  
+  <rect x="560" y="400" width="220" height="110" rx="10" ry="10" fill="#64B5F6"/>
+  <text x="670" y="425" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">主打产品展示</text>
+  <line x1="580" y1="435" x2="760" y2="435" stroke="white" stroke-width="2"/>
+  <text x="670" y="455" font-family="Arial" font-size="14" fill="white" text-anchor="middle">针对外卖店铺新客户</text>
+  <text x="670" y="475" font-family="Arial" font-size="14" fill="white" text-anchor="middle">突出主推产品展示</text>
+  <text x="670" y="495" font-family="Arial" font-size="14" fill="white" text-anchor="middle">提高首次消费满意度</text>
+  
+  <rect x="800" y="400" width="220" height="110" rx="10" ry="10" fill="#64B5F6"/>
+  <text x="910" y="425" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">服务功能设置</text>
+  <line x1="820" y1="435" x2="1000" y2="435" stroke="white" stroke-width="2"/>
+  <text x="910" y="455" font-family="Arial" font-size="14" fill="white" text-anchor="middle">开通放心吃和准时宝</text>
+  <text x="910" y="475" font-family="Arial" font-size="14" fill="white" text-anchor="middle">开启预订单功能</text>
+  <text x="910" y="495" font-family="Arial" font-size="14" fill="white" text-anchor="middle">确保全天接单能力</text>
+  
+  <rect x="1040" y="400" width="160" height="110" rx="10" ry="10" fill="#64B5F6"/>
+  <text x="1120" y="425" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">营业时间优化</text>
+  <line x1="1060" y1="435" x2="1180" y2="435" stroke="white" stroke-width="2"/>
+  <text x="1120" y="455" font-family="Arial" font-size="14" fill="white" text-anchor="middle">延长营业时长</text>
+  <text x="1120" y="475" font-family="Arial" font-size="14" fill="white" text-anchor="middle">覆盖多个就餐时段</text>
+  <text x="1120" y="495" font-family="Arial" font-size="14" fill="white" text-anchor="middle">增加订单接收机会</text>
+  
+  <!-- 第三行：最新趋势与优化方向 -->
+  <rect x="40" y="560" width="1200" height="170" rx="15" ry="15" fill="#3F51B5"/>
+  <text x="640" y="595" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">最新趋势与优化方向</text>
+  
+  <!-- 最新趋势模块 -->
+  <rect x="90" y="620" width="350" height="90" rx="10" ry="10" fill="#5C6BC0"/>
+  <text x="265" y="645" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">营销工具优化趋势</text>
+  <line x1="110" y1="655" x2="420" y2="655" stroke="white" stroke-width="2"/>
+  <text x="265" y="675" font-family="Arial" font-size="14" fill="white" text-anchor="middle">剔除"活动丰富度"评分，更客观体现基础经营力</text>
+  <text x="265" y="695" font-family="Arial" font-size="14" fill="white" text-anchor="middle">推出"智能营销小助手"及营销支出管控工具</text>
+  
+  <rect x="465" y="620" width="350" height="90" rx="10" ry="10" fill="#5C6BC0"/>
+  <text x="640" y="645" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">首页改版影响</text>
+  <line x1="485" y1="655" x2="795" y2="655" stroke="white" stroke-width="2"/>
+  <text x="640" y="675" font-family="Arial" font-size="14" fill="white" text-anchor="middle">商家列表排位更靠前、比例扩大</text>
+  <text x="640" y="695" font-family="Arial" font-size="14" fill="white" text-anchor="middle">更加重视商家列表的优化以提高曝光量</text>
+  
+  <rect x="840" y="620" width="350" height="90" rx="10" ry="10" fill="#5C6BC0"/>
+  <text x="1015" y="645" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">评价机制变化</text>
+  <line x1="860" y1="655" x2="1170" y2="655" stroke="white" stroke-width="2"/>
+  <text x="1015" y="675" font-family="Arial" font-size="14" fill="white" text-anchor="middle">增加"随机用户评价"、"近期好评度"等标签</text>
+  <text x="1015" y="695" font-family="Arial" font-size="14" fill="white" text-anchor="middle">弱化营销活动因素，促使经营回归产品和服务</text>
+  
+  <!-- 底部总结区域 -->
+  <rect x="160" y="730" width="960" height="40" rx="20" ry="20" fill="#FFC107"/>
+  <text x="640" y="755" font-family="Arial" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">店铺优化的核心：合理分类、精美装修、突出产品、提升服务，回归产品和服务本质</text>
+</svg>
