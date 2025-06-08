@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="780" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1280" height="780" fill="#f5f5f5"/>
+  
+  <!-- 标题区域 -->
+  <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#FF5722"/>
+    <stop offset="100%" style="stop-color:#FF9800"/>
+  </linearGradient>
+  <rect x="0" y="0" width="1280" height="110" fill="url(#headerGradient)"/>
+  <text x="640" y="55" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">美团外卖顾客分析指南</text>
+  <text x="640" y="95" font-family="Arial" font-size="22" fill="white" text-anchor="middle">提升转化率与客户满意度的数据驱动方法</text>
+  
+  <!-- 左侧：顾客类型分析区域 -->
+  <rect x="40" y="130" width="600" height="290" rx="15" ry="15" fill="#9C27B0"/>
+  <text x="340" y="165" font-family="Arial" font-size="26" font-weight="bold" fill="white" text-anchor="middle">顾客类型画像</text>
+  <line x1="140" y1="180" x2="540" y2="180" stroke="white" stroke-width="2"/>
+  
+  <!-- 顾客类型卡片 -->
+  <rect x="60" y="200" width="280" height="200" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="200" y="230" font-family="Arial" font-size="22" font-weight="bold" fill="white" text-anchor="middle">主力消费群体</text>
+  <text x="80" y="265" font-family="Arial" font-size="16" fill="white">• 25-40岁上班族</text>
+  <text x="80" y="295" font-family="Arial" font-size="16" fill="white">• 午餐高峰订单</text>
+  <text x="80" y="325" font-family="Arial" font-size="16" fill="white">• 追求性价比与便捷</text>
+  <text x="80" y="355" font-family="Arial" font-size="16" fill="white">• 倾向于快速配送选项</text>
+  <text x="80" y="385" font-family="Arial" font-size="16" fill="white">• 客单价30-50元</text>
+  
+  <rect x="360" y="200" width="260" height="200" rx="10" ry="10" fill="#CE93D8"/>
+  <text x="490" y="230" font-family="Arial" font-size="22" font-weight="bold" fill="white" text-anchor="middle">增长潜力群体</text>
+  <text x="380" y="265" font-family="Arial" font-size="16" fill="white">• 18-25岁学生/年轻人</text>
+  <text x="380" y="295" font-family="Arial" font-size="16" fill="white">• 晚餐与夜宵订单</text>
+  <text x="380" y="325" font-family="Arial" font-size="16" fill="white">• 重视优惠与社交分享</text>
+  <text x="380" y="355" font-family="Arial" font-size="16" fill="white">• 对新品尝试意愿高</text>
+  <text x="380" y="385" font-family="Arial" font-size="16" fill="white">• 客单价20-40元</text>
+  
+  <!-- 右侧：消费行为分析区域 -->
+  <rect x="660" y="130" width="580" height="290" rx="15" ry="15" fill="#2196F3"/>
+  <text x="950" y="165" font-family="Arial" font-size="26" font-weight="bold" fill="white" text-anchor="middle">顾客消费行为分析</text>
+  <line x1="760" y1="180" x2="1140" y2="180" stroke="white" stroke-width="2"/>
+  
+  <!-- 消费行为分析卡片 -->
+  <rect x="680" y="200" width="260" height="200" rx="10" ry="10" fill="#64B5F6"/>
+  <text x="810" y="230" font-family="Arial" font-size="22" font-weight="bold" fill="white" text-anchor="middle">时段偏好</text>
+  <text x="700" y="265" font-family="Arial" font-size="16" fill="white">• 工作日午餐：11:30-13:00</text>
+  <text x="700" y="295" font-family="Arial" font-size="16" fill="white">• 工作日晚餐：18:00-20:00</text>
+  <text x="700" y="325" font-family="Arial" font-size="16" fill="white">• 周末全天订单较均匀</text>
+  <text x="700" y="355" font-family="Arial" font-size="16" fill="white">• 雨天订单量提升30%</text>
+  <text x="700" y="385" font-family="Arial" font-size="16" fill="white">• 节假日外卖需求高峰</text>
+  
+  <rect x="960" y="200" width="260" height="200" rx="10" ry="10" fill="#90CAF9"/>
+  <text x="1090" y="230" font-family="Arial" font-size="22" font-weight="bold" fill="white" text-anchor="middle">点餐习惯</text>
+  <text x="980" y="265" font-family="Arial" font-size="16" fill="white">• 55%顾客有套餐偏好</text>
+  <text x="980" y="295" font-family="Arial" font-size="16" fill="white">• 周末多人餐点单增加</text>
+  <text x="980" y="325" font-family="Arial" font-size="16" fill="white">• 65%顾客查看评价后下单</text>
+  <text x="980" y="355" font-family="Arial" font-size="16" fill="white">• 45%会添加推荐商品</text>
+  <text x="980" y="385" font-family="Arial" font-size="16" fill="white">• 70%对配送时间敏感</text>
+  
+  <!-- 中间：顾客留存策略区域 -->
+  <rect x="40" y="440" width="1200" height="300" rx="15" ry="15" fill="#4CAF50"/>
+  <text x="640" y="475" font-family="Arial" font-size="26" font-weight="bold" fill="white" text-anchor="middle">顾客留存与转化策略</text>
+  <line x1="340" y1="490" x2="940" y2="490" stroke="white" stroke-width="2"/>
+  
+  <!-- 四个顾客留存策略卡片 -->
+  <rect x="60" y="510" width="280" height="210" rx="10" ry="10" fill="#66BB6A"/>
+  <text x="200" y="540" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">个性化推荐</text>
+  <text x="75" y="570" font-family="Arial" font-size="16" fill="white">• 基于历史订单数据</text>
+  <text x="75" y="600" font-family="Arial" font-size="16" fill="white">• 针对顾客偏好推荐</text>
+  <text x="75" y="630" font-family="Arial" font-size="16" fill="white">• 天气相关推荐</text>
+  <text x="75" y="660" font-family="Arial" font-size="16" fill="white">• 时段特色推荐</text>
+  <text x="75" y="690" font-family="Arial" font-size="16" fill="white">提升点击转化率25%</text>
+  
+  <rect x="360" y="510" width="280" height="210" rx="10" ry="10" fill="#81C784"/>
+  <text x="500" y="540" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">会员积分体系</text>
+  <text x="375" y="570" font-family="Arial" font-size="16" fill="white">• 消费积分累计</text>
+  <text x="375" y="600" font-family="Arial" font-size="16" fill="white">• 多级会员特权</text>
+  <text x="375" y="630" font-family="Arial" font-size="16" fill="white">• 积分兑换礼品</text>
+  <text x="375" y="660" font-family="Arial" font-size="16" fill="white">• 会员专属活动</text>
+  <text x="375" y="690" font-family="Arial" font-size="16" fill="white">提升复购率35%</text>
+  
+  <rect x="660" y="510" width="280" height="210" rx="10" ry="10" fill="#66BB6A"/>
+  <text x="800" y="540" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">订单满意度管理</text>
+  <text x="675" y="570" font-family="Arial" font-size="16" fill="white">• 优质配送保障</text>
+  <text x="675" y="600" font-family="Arial" font-size="16" fill="white">• 包装质量控制</text>
+  <text x="675" y="630" font-family="Arial" font-size="16" fill="white">• 异常问题快速解决</text>
+  <text x="675" y="660" font-family="Arial" font-size="16" fill="white">• 差评订单跟进处理</text>
+  <text x="675" y="690" font-family="Arial" font-size="16" fill="white">提升评分0.5+星</text>
+  
+  <rect x="960" y="510" width="280" height="210" rx="10" ry="10" fill="#81C784"/>
+  <text x="1100" y="540" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">节日营销策略</text>
+  <text x="975" y="570" font-family="Arial" font-size="16" fill="white">• 节日特色菜品</text>
+  <text x="975" y="600" font-family="Arial" font-size="16" fill="white">• 限时优惠活动</text>
+  <text x="975" y="630" font-family="Arial" font-size="16" fill="white">• 节日主题包装</text>
+  <text x="975" y="660" font-family="Arial" font-size="16" fill="white">• 社交媒体互动</text>
+  <text x="975" y="690" font-family="Arial" font-size="16" fill="white">节日销量提升40%+</text>
+  
+  <!-- 底部区域 -->
+  <linearGradient id="footerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#29B6F6"/>
+    <stop offset="100%" style="stop-color:#4FC3F7"/>
+  </linearGradient>
+  <rect x="40" y="750" width="1200" height="30" rx="10" ry="10" fill="url(#footerGradient)"/>
+  <text x="640" y="770" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">定期更新顾客分析数据，持续优化服务，提高顾客忠诚度与点餐频次</text>
+
+</svg>
