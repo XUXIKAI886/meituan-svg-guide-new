@@ -152,4 +152,7 @@
   <!-- 底部信息 - 修复重叠问题 -->
   <rect x="40" y="755" width="1200" height="30" rx="10" ry="10" fill="#FF9800"/>
   <text x="640" y="775" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">美团外卖平台运营优化的核心：产品质量、服务体验、营销策略三位一体</text>
-</svg> 
+  
+  <!-- 中心大型水印 - 放在最后确保覆盖在最上层 -->
+  <text x="640" y="390" font-family="Arial" font-size="200" font-weight="bold" fill="white" opacity="0.12" text-anchor="middle" transform="rotate(-30, 640, 390)">呈尚策划</text>
+</svg>
