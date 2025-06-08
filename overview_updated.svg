@@ -12,6 +12,14 @@
   <text x="640" y="55" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">呈尚策划 美团运营知识手册</text>
   <text x="640" y="95" font-family="Arial" font-size="22" fill="white" text-anchor="middle">外卖平台商家优化指南</text>
   
+  <!-- 新增品牌标签 - 左上角 -->
+  <rect x="20" y="20" width="180" height="30" rx="5" ry="5" fill="#333333" opacity="0.8"/>
+  <text x="110" y="42" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">呈尚策划</text>
+  
+  <!-- 新增版权声明 - 右上角 -->
+  <rect x="1080" y="20" width="180" height="30" rx="5" ry="5" fill="#333333" opacity="0.8"/>
+  <text x="1170" y="42" font-family="Arial" font-size="14" font-weight="bold" fill="white" text-anchor="middle">版权所有 盗版必究</text>
+  
   <!-- 核心运营工具区域 -->
   <rect x="40" y="130" width="750" height="270" rx="15" ry="15" fill="#9C27B0"/>
   <text x="395" y="165" font-family="Arial" font-size="28" font-weight="bold" fill="white" text-anchor="middle">核心运营工具</text>
@@ -144,4 +152,4 @@
   <!-- 底部信息 - 修复重叠问题 -->
   <rect x="40" y="755" width="1200" height="30" rx="10" ry="10" fill="#FF9800"/>
   <text x="640" y="775" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">美团外卖平台运营优化的核心：产品质量、服务体验、营销策略三位一体</text>
-</svg>
+</svg> 
