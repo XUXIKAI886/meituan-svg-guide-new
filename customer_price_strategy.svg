@@ -10,4 +10,64 @@
   </linearGradient>
   <rect x="0" y="0" width="1280" height="110" fill="url(#headerGradient)"/>
   <text x="640" y="65" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">美团外卖商家提高客单价策略</text>
-</rect></svg>
+
+  <!-- 左上模块：套餐搭配的作用 -->
+  <rect x="40" y="130" width="600" height="300" rx="15" ry="15" fill="#4CAF50"/>
+  <text x="340" y="165" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">套餐搭配的作用</text>
+  <line x1="140" y1="180" x2="540" y2="180" stroke="white" stroke-width="2"/>
+  
+  <!-- 套餐搭配的作用 - 左上卡片 -->
+  <rect x="60" y="200" width="560" height="210" rx="10" ry="10" fill="#66BB6A"/>
+  <text x="80" y="230" font-family="Arial" font-size="16" fill="white">• 提高下单转化率：缩短用户点餐思考时间，降低流失量</text>
+  <text x="80" y="260" font-family="Arial" font-size="16" fill="white">• 提高客单价：用户选择套餐时对单品价格敏感度降低</text>
+  <text x="80" y="290" font-family="Arial" font-size="16" fill="white">• 提高活动报名转化：合理套餐参与平台活动转化率更高</text>
+  <text x="80" y="320" font-family="Arial" font-size="16" fill="white">• 带动新品销售：通过爆款+新品搭配，用爆款为新品引流</text>
+  <text x="80" y="350" font-family="Arial" font-size="16" fill="white">• 带给商家更高利润：加入毛利高商品，批量采购降低成本</text>
+  <text x="80" y="380" font-family="Arial" font-size="16" fill="white">• 增加产品比较难度：减少用户比较机会，提高销售机会</text>
+
+  <!-- 右上模块：套餐定价策略 -->
+  <rect x="660" y="130" width="580" height="300" rx="15" ry="15" fill="#2196F3"/>
+  <text x="950" y="165" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">套餐定价策略</text>
+  <line x1="760" y1="180" x2="1140" y2="180" stroke="white" stroke-width="2"/>
+  
+  <!-- 套餐定价策略 - 右上卡片 -->
+  <rect x="680" y="200" width="540" height="210" rx="10" ry="10" fill="#64B5F6"/>
+  <text x="700" y="230" font-family="Arial" font-size="16" fill="white">• 食材与加工成本核算：计算套餐内所有菜品的成本总和</text>
+  <text x="700" y="260" font-family="Arial" font-size="16" fill="white">• 参考竞品定价：分析同区域同品类高销量套餐的定价策略</text>
+  <text x="700" y="290" font-family="Arial" font-size="16" fill="white">• 尾数定价：如29.9元而非30元，降低顾客下单心理成本</text>
+  <text x="700" y="320" font-family="Arial" font-size="16" fill="white">• 价格略低于单品相加：让用户产生"占便宜"的错觉</text>
+  <text x="700" y="350" font-family="Arial" font-size="16" fill="white">• 定价有层次：设置不同价格档位，满足不同消费水平客户</text>
+  <text x="700" y="380" font-family="Arial" font-size="16" fill="white">• 考虑满减活动：合理设置特价与优惠不同享选项避免亏损</text>
+
+  <!-- 左下模块：套餐商品选择技巧 -->
+  <rect x="40" y="450" width="600" height="300" rx="15" ry="15" fill="#9C27B0"/>
+  <text x="340" y="485" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">套餐商品选择技巧</text>
+  <line x1="140" y1="500" x2="540" y2="500" stroke="white" stroke-width="2"/>
+  
+  <!-- 套餐商品选择技巧 - 左下卡片 -->
+  <rect x="60" y="520" width="560" height="210" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="80" y="550" font-family="Arial" font-size="16" fill="white">• 种类与荤素搭配：菜品、小吃、饮品一应俱全，营养均衡</text>
+  <text x="80" y="580" font-family="Arial" font-size="16" fill="white">• 食品互补性：干配稀、重口配清淡、麻辣配酸甜，口感丰富</text>
+  <text x="80" y="610" font-family="Arial" font-size="16" fill="white">• 尊重饮食传统：豆浆+油条、炒菜+米饭等传统搭配直接套用</text>
+  <text x="80" y="640" font-family="Arial" font-size="16" fill="white">• 根据场景选择：午餐、夜宵、下午茶等不同场景选择合适商品</text>
+  <text x="80" y="670" font-family="Arial" font-size="16" fill="white">• 考虑用餐人群：商务套餐、个人套餐、双人套餐、多人餐等</text>
+  <text x="80" y="700" font-family="Arial" font-size="16" fill="white">• 考虑季节与节假日：结合季节特点和节假日推出特色套餐</text>
+
+  <!-- 右下模块：店铺优化提高客单价 -->
+  <rect x="660" y="450" width="580" height="300" rx="15" ry="15" fill="#FF5722"/>
+  <text x="950" y="485" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">店铺优化提高客单价</text>
+  <line x1="760" y1="500" x2="1140" y2="500" stroke="white" stroke-width="2"/>
+  
+  <!-- 店铺优化提高客单价 - 右下卡片 -->
+  <rect x="680" y="520" width="540" height="210" rx="10" ry="10" fill="#FF8A65"/>
+  <text x="700" y="550" font-family="Arial" font-size="16" fill="white">• 菜单分类优化：控制在8个以内，使用有食欲的描述词</text>
+  <text x="700" y="580" font-family="Arial" font-size="16" fill="white">• 突出核心商品：主推产品与爆款放在显眼位置增加点击率</text>
+  <text x="700" y="610" font-family="Arial" font-size="16" fill="white">• 定期更新店内海报：不断更换促销内容增加老用户新鲜感</text>
+  <text x="700" y="640" font-family="Arial" font-size="16" fill="white">• 优化菜品名称：通过突出食材、修饰做法提升菜品价值感</text>
+  <text x="700" y="670" font-family="Arial" font-size="16" fill="white">• 合理设置促销活动：避免过度补贴，回归产品和服务本质</text>
+  <text x="700" y="700" font-family="Arial" font-size="16" fill="white">• 优化店铺名称与logo：专业有特点的品牌形象提高点击率</text>
+
+  <!-- 底部流程步骤 -->
+  <rect x="40" y="770" width="1200" height="30" rx="10" ry="10" fill="#FFC107"/>
+  <text x="640" y="790" font-family="Arial" font-size="18" font-weight="bold" fill="#333" text-anchor="middle">成本分析→合理定价→套餐优化→店铺装修→持续改进→客单价提升</text>
+</svg>
