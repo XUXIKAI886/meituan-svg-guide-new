@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="780" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1280" height="780" fill="#f5f5f5"/>
+  
+  <!-- 标题区域 -->
+  <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#FF5722"/>
+    <stop offset="100%" style="stop-color:#FF9800"/>
+  </linearGradient>
+  <rect x="0" y="0" width="1280" height="110" fill="url(#headerGradient)"/>
+  <text x="640" y="55" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">美团外卖套餐优化指南</text>
+  <text x="640" y="95" font-family="Arial" font-size="22" fill="white" text-anchor="middle">提高转化率与客单价的套餐设计策略</text>
+  
+  <!-- 第一层：套餐的作用 -->
+  <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#9C27B0"/>
+    <stop offset="100%" style="stop-color:#AB47BC"/>
+  </linearGradient>
+  <rect x="40" y="130" width="1200" height="200" rx="15" ry="15" fill="url(#purpleGradient)"/>
+  <text x="640" y="165" font-family="Arial" font-size="28" font-weight="bold" fill="white" text-anchor="middle">套餐的作用与优势</text>
+  <line x1="300" y1="180" x2="980" y2="180" stroke="white" stroke-width="2"/>
+  
+  <!-- 套餐作用模块 -->
+  <rect x="60" y="200" width="180" height="110" rx="10" ry="10" fill="#CE93D8"/>
+  <text x="150" y="225" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">提高转化率</text>
+  <text x="70" y="255" font-family="Arial" font-size="16" fill="white">• 缩短点餐思考时间</text>
+  <text x="70" y="285" font-family="Arial" font-size="16" fill="white">• 快速下单，降低流失</text>
+  
+  <rect x="255" y="200" width="180" height="110" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="345" y="225" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">提高客单价</text>
+  <text x="265" y="255" font-family="Arial" font-size="16" fill="white">• 组合降低价格敏感度</text>
+  <text x="265" y="285" font-family="Arial" font-size="16" fill="white">• 增加用户整体消费</text>
+  
+  <rect x="450" y="200" width="180" height="110" rx="10" ry="10" fill="#CE93D8"/>
+  <text x="540" y="225" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">提高活动转化</text>
+  <text x="460" y="255" font-family="Arial" font-size="16" fill="white">• 合理套餐报名活动</text>
+  <text x="460" y="285" font-family="Arial" font-size="16" fill="white">• 获得更高转化率</text>
+  
+  <rect x="645" y="200" width="180" height="110" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="735" y="225" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">带动新品销售</text>
+  <text x="655" y="255" font-family="Arial" font-size="16" fill="white">• 爆款+新品搭配</text>
+  <text x="655" y="285" font-family="Arial" font-size="16" fill="white">• 用爆款引流新品</text>
+  
+  <rect x="840" y="200" width="180" height="110" rx="10" ry="10" fill="#CE93D8"/>
+  <text x="930" y="225" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">带来更高利润</text>
+  <text x="850" y="255" font-family="Arial" font-size="16" fill="white">• 加入毛利高商品</text>
+  <text x="850" y="285" font-family="Arial" font-size="16" fill="white">• 降低采购成本</text>
+  
+  <rect x="1035" y="200" width="180" height="110" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="1125" y="225" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">减少比较难度</text>
+  <text x="1045" y="255" font-family="Arial" font-size="16" fill="white">• 套餐模式减少比较</text>
+  <text x="1045" y="285" font-family="Arial" font-size="16" fill="white">• 降低价格敏感度</text>
+  
+  <!-- 第二层：套餐商品选择技巧 -->
+  <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#1E88E5"/>
+    <stop offset="100%" style="stop-color:#42A5F5"/>
+  </linearGradient>
+  <rect x="40" y="350" width="1200" height="180" rx="15" ry="15" fill="url(#blueGradient)"/>
+  <text x="640" y="385" font-family="Arial" font-size="28" font-weight="bold" fill="white" text-anchor="middle">套餐商品选择技巧</text>
+  <line x1="300" y1="400" x2="980" y2="400" stroke="white" stroke-width="2"/>
+  
+  <!-- 套餐商品选择技巧模块 -->
+  <rect x="100" y="420" width="250" height="90" rx="10" ry="10" fill="#90CAF9"/>
+  <text x="225" y="445" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">种类与荤素搭配</text>
+  <text x="110" y="475" font-family="Arial" font-size="16" fill="white">• 菜品、小吃、饮品齐全</text>
+  <text x="110" y="500" font-family="Arial" font-size="16" fill="white">• 口味丰富，营养均衡</text>
+  
+  <rect x="375" y="420" width="250" height="90" rx="10" ry="10" fill="#64B5F6"/>
+  <text x="500" y="445" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">食品互补性</text>
+  <text x="385" y="475" font-family="Arial" font-size="16" fill="white">• 干配稀，重口配清淡</text>
+  <text x="385" y="500" font-family="Arial" font-size="16" fill="white">• 麻辣配酸甜，口感均衡</text>
+  
+  <rect x="650" y="420" width="250" height="90" rx="10" ry="10" fill="#90CAF9"/>
+  <text x="775" y="445" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">尊重饮食传统</text>
+  <text x="660" y="475" font-family="Arial" font-size="16" fill="white">• 传统习惯搭配使用</text>
+  <text x="660" y="500" font-family="Arial" font-size="16" fill="white">• 如豆浆+油条，薯条+可乐</text>
+  
+  <rect x="925" y="420" width="250" height="90" rx="10" ry="10" fill="#64B5F6"/>
+  <text x="1050" y="445" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">根据场景选择</text>
+  <text x="935" y="475" font-family="Arial" font-size="16" fill="white">• 考虑时段场景与用餐人群</text>
+  <text x="935" y="500" font-family="Arial" font-size="16" fill="white">• 根据季节和节假日设计</text>
+  
+  <!-- 第三层：套餐定价策略 -->
+  <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#43A047"/>
+    <stop offset="100%" style="stop-color:#66BB6A"/>
+  </linearGradient>
+  <rect x="40" y="550" width="1200" height="180" rx="15" ry="15" fill="url(#greenGradient)"/>
+  <text x="640" y="585" font-family="Arial" font-size="28" font-weight="bold" fill="white" text-anchor="middle">套餐定价策略与优化技巧</text>
+  <line x1="300" y1="600" x2="980" y2="600" stroke="white" stroke-width="2"/>
+  
+  <!-- 套餐定价策略模块 -->
+  <rect x="100" y="620" width="250" height="90" rx="10" ry="10" fill="#81C784"/>
+  <text x="225" y="645" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">定价区间策略</text>
+  <text x="110" y="675" font-family="Arial" font-size="16" fill="white">• 套餐价格略低于单品相加</text>
+  <text x="110" y="700" font-family="Arial" font-size="16" fill="white">• 让用户产生占便宜的错觉</text>
+  
+  <rect x="375" y="620" width="250" height="90" rx="10" ry="10" fill="#66BB6A"/>
+  <text x="500" y="645" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">等级定价策略</text>
+  <text x="385" y="675" font-family="Arial" font-size="16" fill="white">• 推出"阶梯式"套餐</text>
+  <text x="385" y="700" font-family="Arial" font-size="16" fill="white">• 经济、标准、豪华三级套餐</text>
+  
+  <rect x="650" y="620" width="250" height="90" rx="10" ry="10" fill="#81C784"/>
+  <text x="775" y="645" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">套餐命名技巧</text>
+  <text x="660" y="675" font-family="Arial" font-size="16" fill="white">• 吸引人的套餐名字</text>
+  <text x="660" y="700" font-family="Arial" font-size="16" fill="white">• 增加套餐吸引力</text>
+  
+  <rect x="925" y="620" width="250" height="90" rx="10" ry="10" fill="#66BB6A"/>
+  <text x="1050" y="645" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">尾数定价策略</text>
+  <text x="935" y="675" font-family="Arial" font-size="16" fill="white">• 如30元定为29.9元</text>
+  <text x="935" y="700" font-family="Arial" font-size="16" fill="white">• 降低下单心理成本</text>
+  
+  <!-- 底部区域 -->
+  <linearGradient id="footerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#FF7043"/>
+    <stop offset="100%" style="stop-color:#FF9800"/>
+  </linearGradient>
+  <rect x="40" y="750" width="1200" height="30" rx="10" ry="10" fill="url(#footerGradient)"/>
+  <text x="640" y="770" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">合理套餐设计可缩短决策时间、提高客单价、提升利润、促进复购</text>
+
+</svg>
