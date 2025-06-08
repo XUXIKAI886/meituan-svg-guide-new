@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="780" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1280" height="780" fill="#f5f5f5"/>
+  
+  <!-- 标题区域 -->
+  <rect x="0" y="0" width="1280" height="100" fill="#FF5722"/>
+  <text x="640" y="60" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">美团外卖天天神券详细说明</text>
+  
+  <!-- 第一行卡片 -->
+  <rect x="100" y="130" width="280" height="180" rx="15" ry="15" fill="#4CAF50"/>
+  <text x="240" y="160" font-family="Arial" font-size="22" font-weight="bold" fill="white" text-anchor="middle">定义与目的</text>
+  <line x1="130" y1="180" x2="350" y2="180" stroke="white" stroke-width="2"/>
+  <text x="240" y="210" font-family="Arial" font-size="14" fill="white" text-anchor="middle">天天神券是美团外卖平台提供</text>
+  <text x="240" y="235" font-family="Arial" font-size="14" fill="white" text-anchor="middle">的一种优惠券，旨在鼓励用户</text>
+  <text x="240" y="260" font-family="Arial" font-size="14" fill="white" text-anchor="middle">在平台上购买外卖食品时享受</text>
+  <text x="240" y="285" font-family="Arial" font-size="14" fill="white" text-anchor="middle">折扣，提高用户下单率。</text>
+  
+  <rect x="400" y="130" width="280" height="180" rx="15" ry="15" fill="#2196F3"/>
+  <text x="540" y="160" font-family="Arial" font-size="22" font-weight="bold" fill="white" text-anchor="middle">如何领取神券</text>
+  <line x1="430" y1="180" x2="650" y2="180" stroke="white" stroke-width="2"/>
+  <text x="540" y="210" font-family="Arial" font-size="14" fill="white" text-anchor="middle">1. 打开美团APP</text>
+  <text x="540" y="235" font-family="Arial" font-size="14" fill="white" text-anchor="middle">2. 点击【外卖】</text>
+  <text x="540" y="260" font-family="Arial" font-size="14" fill="white" text-anchor="middle">3. 点击【天天神券】</text>
+  <text x="540" y="285" font-family="Arial" font-size="14" fill="white" text-anchor="middle">4. 进入页面后可领取神券</text>
+  
+  <rect x="700" y="130" width="280" height="180" rx="15" ry="15" fill="#9C27B0"/>
+  <text x="840" y="160" font-family="Arial" font-size="22" font-weight="bold" fill="white" text-anchor="middle">如何使用神券</text>
+  <line x1="730" y1="180" x2="950" y2="180" stroke="white" stroke-width="2"/>
+  <text x="840" y="210" font-family="Arial" font-size="14" fill="white" text-anchor="middle">1. 结算页面点击"我的天天神券"</text>
+  <text x="840" y="235" font-family="Arial" font-size="14" fill="white" text-anchor="middle">2. 选择想要使用的天天神券</text>
+  <text x="840" y="260" font-family="Arial" font-size="14" fill="white" text-anchor="middle">3. 点击"确定"</text>
+  <text x="840" y="285" font-family="Arial" font-size="14" fill="white" text-anchor="middle">4. 完成订单支付</text>
+  
+  <rect x="1000" y="130" width="180" height="180" rx="15" ry="15" fill="#FF5722"/>
+  <text x="1090" y="160" font-family="Arial" font-size="22" font-weight="bold" fill="white" text-anchor="middle">优惠幅度</text>
+  <line x1="1030" y1="180" x2="1150" y2="180" stroke="white" stroke-width="2"/>
+  <text x="1090" y="235" font-family="Arial" font-size="16" fill="white" text-anchor="middle">面值一般为</text>
+  <text x="1090" y="265" font-family="Arial" font-size="16" fill="white" text-anchor="middle">20-4元</text>
+  
+  <!-- 中间流程图 -->
+  <rect x="100" y="340" width="1080" height="160" rx="20" ry="20" fill="#FFC107"/>
+  <text x="640" y="380" font-family="Arial" font-size="24" font-weight="bold" fill="#333" text-anchor="middle">天天神券使用规则</text>
+  
+  <!-- 流程图内容 -->
+  <circle cx="170" cy="430" r="25" fill="#333"/>
+  <text x="170" y="435" font-family="Arial" font-size="16" fill="white" text-anchor="middle">1</text>
+  <text x="310" y="435" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">每个订单只能使用一张神券</text>
+  
+  <circle cx="430" cy="430" r="25" fill="#333"/>
+  <text x="430" y="435" font-family="Arial" font-size="16" fill="white" text-anchor="middle">2</text>
+  <text x="570" y="435" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">不能与其他优惠券同时使用</text>
+  
+  <circle cx="730" cy="430" r="25" fill="#333"/>
+  <text x="730" y="435" font-family="Arial" font-size="16" fill="white" text-anchor="middle">3</text>
+  <text x="870" y="435" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">有一定使用期限，过期作废</text>
+  
+  <circle cx="1030" cy="430" r="25" fill="#333"/>
+  <text x="1030" y="435" font-family="Arial" font-size="16" fill="white" text-anchor="middle">4</text>
+  <text x="1110" y="435" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">满减要求</text>
+  
+  <!-- 第二行卡片 -->
+  <rect x="100" y="530" width="500" height="180" rx="15" ry="15" fill="#3F51B5"/>
+  <text x="350" y="560" font-family="Arial" font-size="22" font-weight="bold" fill="white" text-anchor="middle">神券膨胀说明</text>
+  <line x1="130" y1="580" x2="570" y2="580" stroke="white" stroke-width="2"/>
+  <text x="350" y="610" font-family="Arial" font-size="16" fill="white" text-anchor="middle">• 美团的天天神券可以进行膨胀，最高膨胀至20元</text>
+  <text x="350" y="640" font-family="Arial" font-size="16" fill="white" text-anchor="middle">• 膨胀后的金额会更高，但需要在特定的商家使用</text>
+  <text x="350" y="670" font-family="Arial" font-size="16" fill="white" text-anchor="middle">• 膨胀规则由平台设定，会根据不同商家有所差异</text>
+  
+  <rect x="620" y="530" width="560" height="180" rx="15" ry="15" fill="#8E24AA"/>
+  <text x="900" y="560" font-family="Arial" font-size="22" font-weight="bold" fill="white" text-anchor="middle">商家开通天天神券的价值</text>
+  <line x1="650" y1="580" x2="1150" y2="580" stroke="white" stroke-width="2"/>
+  <text x="730" y="610" font-family="Arial" font-size="16" fill="white" text-anchor="middle">• 提高店铺曝光率</text>
+  <text x="730" y="640" font-family="Arial" font-size="16" fill="white" text-anchor="middle">• 吸引更多新客户</text>
+  <text x="730" y="670" font-family="Arial" font-size="16" fill="white" text-anchor="middle">• 参与平台活动增加流量</text>
+  
+  <text x="1000" y="610" font-family="Arial" font-size="16" fill="white" text-anchor="middle">• 提升用户下单转化率</text>
+  <text x="1000" y="640" font-family="Arial" font-size="16" fill="white" text-anchor="middle">• 增加客单价</text>
+  <text x="1000" y="670" font-family="Arial" font-size="16" fill="white" text-anchor="middle">• 培养用户复购习惯</text>
+  
+  <!-- 底部总结区域 -->
+  <rect x="160" y="730" width="960" height="40" rx="20" ry="20" fill="#90CAF9"/>
+  <text x="640" y="755" font-family="Arial" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">天天神券是美团外卖平台提高用户转化率和留存率的重要工具，对平台和商家都有显著价值</text>
+</svg>
