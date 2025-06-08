@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="780" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1280" height="780" fill="#f5f5f5"/>
+  
+  <!-- 标题区域 -->
+  <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#FF5722"/>
+    <stop offset="100%" style="stop-color:#FF9800"/>
+  </linearGradient>
+  <rect x="0" y="0" width="1280" height="110" fill="url(#headerGradient)"/>
+  <text x="640" y="55" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">美团外卖套餐设计流程</text>
+  <text x="640" y="95" font-family="Arial" font-size="22" fill="white" text-anchor="middle">从市场调研到套餐优化的完整流程</text>
+  
+  <!-- 流程步骤区域 -->
+  <rect x="40" y="130" width="1200" height="160" rx="15" ry="15" fill="#FFC107"/>
+  <text x="640" y="170" font-family="Arial" font-size="28" font-weight="bold" fill="#333" text-anchor="middle">套餐设计四步法</text>
+  <line x1="250" y1="180" x2="1030" y2="180" stroke="#333" stroke-width="2"/>
+  
+  <!-- 步骤1-4及连接线 -->
+  <circle cx="205" cy="240" r="40" fill="#333"/>
+  <text x="205" y="250" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">1</text>
+  
+  <line x1="245" y1="240" x2="420" y2="240" stroke="#333" stroke-width="3"/>
+  <polygon points="420,240 410,235 410,245" fill="#333"/>
+  
+  <circle cx="460" cy="240" r="40" fill="#333"/>
+  <text x="460" y="250" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">2</text>
+  
+  <line x1="500" y1="240" x2="675" y2="240" stroke="#333" stroke-width="3"/>
+  <polygon points="675,240 665,235 665,245" fill="#333"/>
+  
+  <circle cx="715" cy="240" r="40" fill="#333"/>
+  <text x="715" y="250" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">3</text>
+  
+  <line x1="755" y1="240" x2="930" y2="240" stroke="#333" stroke-width="3"/>
+  <polygon points="930,240 920,235 920,245" fill="#333"/>
+  
+  <circle cx="970" cy="240" r="40" fill="#333"/>
+  <text x="970" y="250" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">4</text>
+  
+  <text x="205" y="290" font-family="Arial" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">市场调研</text>
+  <text x="460" y="290" font-family="Arial" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">套餐设计</text>
+  <text x="715" y="290" font-family="Arial" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">上线测试</text>
+  <text x="970" y="290" font-family="Arial" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">持续优化</text>
+  
+  <!-- 四个阶段模块，横向排列 -->
+  <rect x="75" y="320" width="280" height="190" rx="15" ry="15" fill="#9C27B0"/>
+  <text x="215" y="350" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">市场调研</text>
+  <line x1="130" y1="365" x2="300" y2="365" stroke="white" stroke-width="2"/>
+  
+  <rect x="75" y="380" width="280" height="110" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="215" y="405" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">调研内容</text>
+  <text x="90" y="435" font-family="Arial" font-size="16" fill="white">• 目标客户群体分析</text>
+  <text x="90" y="465" font-family="Arial" font-size="16" fill="white">• 竞品套餐分析</text>
+  <text x="90" y="495" font-family="Arial" font-size="16" fill="white">• 历史销售数据分析</text>
+  
+  <rect x="375" y="320" width="280" height="190" rx="15" ry="15" fill="#2196F3"/>
+  <text x="515" y="350" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">套餐设计</text>
+  <line x1="430" y1="365" x2="600" y2="365" stroke="white" stroke-width="2"/>
+  
+  <rect x="375" y="380" width="280" height="110" rx="10" ry="10" fill="#64B5F6"/>
+  <text x="515" y="405" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">设计要点</text>
+  <text x="390" y="435" font-family="Arial" font-size="16" fill="white">• 菜品组合搭配</text>
+  <text x="390" y="465" font-family="Arial" font-size="16" fill="white">• 价格策略制定</text>
+  <text x="390" y="495" font-family="Arial" font-size="16" fill="white">• 套餐命名与展示设计</text>
+  
+  <rect x="675" y="320" width="280" height="190" rx="15" ry="15" fill="#4CAF50"/>
+  <text x="815" y="350" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">上线测试</text>
+  <line x1="730" y1="365" x2="900" y2="365" stroke="white" stroke-width="2"/>
+  
+  <rect x="675" y="380" width="280" height="110" rx="10" ry="10" fill="#66BB6A"/>
+  <text x="815" y="405" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">测试指标</text>
+  <text x="690" y="435" font-family="Arial" font-size="16" fill="white">• 套餐转化率</text>
+  <text x="690" y="465" font-family="Arial" font-size="16" fill="white">• 客单价变化</text>
+  <text x="690" y="495" font-family="Arial" font-size="16" fill="white">• 用户反馈与评价</text>
+  
+  <rect x="975" y="320" width="280" height="190" rx="15" ry="15" fill="#FF5722"/>
+  <text x="1115" y="350" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">持续优化</text>
+  <line x1="1030" y1="365" x2="1200" y2="365" stroke="white" stroke-width="2"/>
+  
+  <rect x="975" y="380" width="280" height="110" rx="10" ry="10" fill="#FF8A65"/>
+  <text x="1115" y="405" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">优化方向</text>
+  <text x="990" y="435" font-family="Arial" font-size="16" fill="white">• 根据销量调整组合</text>
+  <text x="990" y="465" font-family="Arial" font-size="16" fill="white">• 季节性菜品更新</text>
+  <text x="990" y="495" font-family="Arial" font-size="16" fill="white">• 套餐价格动态调整</text>
+  
+  <!-- 套餐成功要素区域 -->
+  <rect x="40" y="530" width="1200" height="200" rx="15" ry="15" fill="#3F51B5"/>
+  <text x="640" y="560" font-family="Arial" font-size="28" font-weight="bold" fill="white" text-anchor="middle">套餐成功的关键要素</text>
+  <line x1="290" y1="575" x2="990" y2="575" stroke="white" stroke-width="2"/>
+  
+  <!-- 三个横向排列的卡片 -->
+  <rect x="100" y="595" width="340" height="120" rx="10" ry="10" fill="#7986CB"/>
+  <text x="270" y="625" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">覆盖多元化需求</text>
+  <text x="110" y="655" font-family="Arial" font-size="16" fill="white">• 考虑不同人数的用餐场景</text>
+  <text x="110" y="685" font-family="Arial" font-size="16" fill="white">• 同时满足经济型与享受型需求</text>
+  <text x="110" y="715" font-family="Arial" font-size="16" fill="white">• 套餐组合覆盖多种口味偏好</text>
+  
+  <rect x="470" y="595" width="340" height="120" rx="10" ry="10" fill="#7986CB"/>
+  <text x="640" y="625" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">性价比突出</text>
+  <text x="480" y="655" font-family="Arial" font-size="16" fill="white">• 套餐价格低于单品价格总和</text>
+  <text x="480" y="685" font-family="Arial" font-size="16" fill="white">• 突出"省钱"视觉感知</text>
+  <text x="480" y="715" font-family="Arial" font-size="16" fill="white">• 保持利润的同时提供优惠感</text>
+  
+  <rect x="840" y="595" width="340" height="120" rx="10" ry="10" fill="#7986CB"/>
+  <text x="1010" y="625" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">视觉吸引力</text>
+  <text x="850" y="655" font-family="Arial" font-size="16" fill="white">• 高质量的套餐图片展示</text>
+  <text x="850" y="685" font-family="Arial" font-size="16" fill="white">• 醒目的套餐标题与描述</text>
+  <text x="850" y="715" font-family="Arial" font-size="16" fill="white">• 突出展示套餐优惠力度</text>
+  
+  <!-- 底部区域 -->
+  <linearGradient id="footerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#FFB74D"/>
+    <stop offset="100%" style="stop-color:#FFD180"/>
+  </linearGradient>
+  <rect x="40" y="750" width="1200" height="30" rx="10" ry="10" fill="url(#footerGradient)"/>
+  <text x="640" y="770" font-family="Arial" font-size="18" font-weight="bold" fill="#333" text-anchor="middle">持续优化套餐设计方案，保持竞争优势和盈利能力</text>
+
+</svg>
