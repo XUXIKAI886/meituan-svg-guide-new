@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="820" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1280" height="820" fill="#f5f5f5"/>
+
+  <!-- 标题区域 -->
+  <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#FF5722"/>
+    <stop offset="100%" style="stop-color:#FF9800"/>
+  </linearGradient>
+  <rect x="0" y="0" width="1280" height="110" fill="url(#headerGradient)"/>
+  <text x="640" y="65" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">美团外卖商家转化率优化策略</text>
+</rect></svg>
