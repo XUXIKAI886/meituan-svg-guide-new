@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1280" height="780" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1280" height="780" fill="#f5f5f5"/>
+  
+  <!-- 标题区域 -->
+  <rect x="0" y="0" width="1280" height="110" fill="#FF5722"/>
+  <text x="640" y="55" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">美团外卖商家扣点规则详解</text>
+  <text x="640" y="95" font-family="Arial" font-size="22" fill="white" text-anchor="middle">平台佣金与配送费计算标准解析</text>
+  
+  <!-- 扣点规则概览区域 -->
+  <rect x="40" y="130" width="1200" height="120" rx="15" ry="15" fill="#FFC107"/>
+  <text x="640" y="170" font-family="Arial" font-size="28" font-weight="bold" fill="#333" text-anchor="middle">扣点规则基本构成</text>
+  <line x1="300" y1="185" x2="980" y2="185" stroke="#333" stroke-width="2"/>
+  <text x="250" y="220" font-family="Arial" font-size="20" font-weight="bold" fill="#333" text-anchor="middle">配送扣点</text>
+  <text x="500" y="220" font-family="Arial" font-size="20" font-weight="bold" fill="#333" text-anchor="middle">自配送方式扣点</text>
+  <text x="750" y="220" font-family="Arial" font-size="20" font-weight="bold" fill="#333" text-anchor="middle">佣金扣点</text>
+  <text x="1000" y="220" font-family="Arial" font-size="20" font-weight="bold" fill="#333" text-anchor="middle">特殊情况扣点</text>
+  
+  <!-- 配送扣点区域 -->
+  <rect x="40" y="270" width="580" height="220" rx="15" ry="15" fill="#2196F3"/>
+  <text x="330" y="305" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">配送扣点标准</text>
+  <line x1="130" y1="320" x2="530" y2="320" stroke="white" stroke-width="2"/>
+  
+  <rect x="60" y="335" width="540" height="140" rx="10" ry="10" fill="#64B5F6"/>
+  <text x="80" y="360" font-family="Arial" font-size="20" font-weight="bold" fill="white">基本规则:</text>
+  <text x="80" y="390" font-family="Arial" font-size="16" fill="white">• 配送扣点一般在18%~23%之间</text>
+  <text x="80" y="420" font-family="Arial" font-size="16" fill="white">• 保底金额为3.5~4元</text>
+  <text x="80" y="450" font-family="Arial" font-size="16" fill="white">• 订单金额较低时收取保底费用</text>
+  <text x="80" y="480" font-family="Arial" font-size="16" fill="white">• 订单金额较高时按比例收取服务费</text>
+  
+  <!-- 佣金扣点区域 -->
+  <rect x="660" y="270" width="580" height="220" rx="15" ry="15" fill="#9C27B0"/>
+  <text x="950" y="305" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">佣金扣点标准</text>
+  <line x1="750" y1="320" x2="1150" y2="320" stroke="white" stroke-width="2"/>
+  
+  <rect x="680" y="335" width="540" height="140" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="700" y="360" font-family="Arial" font-size="20" font-weight="bold" fill="white">商家类型扣点:</text>
+  <text x="700" y="390" font-family="Arial" font-size="16" fill="white">• 自配送商家：5-8%（较低）</text>
+  <text x="700" y="420" font-family="Arial" font-size="16" fill="white">• 品牌影响力大的大型商家：15-18%</text>
+  <text x="700" y="450" font-family="Arial" font-size="16" fill="white">• 品牌影响力有限的小型商家：18-20%</text>
+  <text x="700" y="480" font-family="Arial" font-size="16" fill="white">• 夫妻店类商家：可能更高</text>
+  
+  <!-- 自配送扣点区域 -->
+  <rect x="40" y="510" width="580" height="220" rx="15" ry="15" fill="#4CAF50"/>
+  <text x="330" y="545" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">自配送方式扣点</text>
+  <line x1="130" y1="560" x2="530" y2="560" stroke="white" stroke-width="2"/>
+  
+  <rect x="60" y="575" width="540" height="140" rx="10" ry="10" fill="#66BB6A"/>
+  <text x="80" y="600" font-family="Arial" font-size="20" font-weight="bold" fill="white">自配送优势:</text>
+  <text x="80" y="630" font-family="Arial" font-size="16" fill="white">• 扣点比例一般为5%-8%</text>
+  <text x="80" y="660" font-family="Arial" font-size="16" fill="white">• 商家自行负责配送，美团收取服务费较低</text>
+  <text x="80" y="690" font-family="Arial" font-size="16" fill="white">• 适合有自有配送团队的商家</text>
+  <text x="80" y="720" font-family="Arial" font-size="16" fill="white">• 可以更好地控制配送质量和时间</text>
+  
+  <!-- 特殊情况扣点区域 -->
+  <rect x="660" y="510" width="580" height="220" rx="15" ry="15" fill="#FF5722"/>
+  <text x="950" y="545" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">特殊情况扣点</text>
+  <line x1="750" y1="560" x2="1150" y2="560" stroke="white" stroke-width="2"/>
+  
+  <rect x="680" y="575" width="540" height="140" rx="10" ry="10" fill="#FF8A65"/>
+  <text x="700" y="600" font-family="Arial" font-size="20" font-weight="bold" fill="white">其他因素:</text>
+  <text x="700" y="630" font-family="Arial" font-size="16" fill="white">• 使用美团券消费：平台收取约10%的佣金</text>
+  <text x="700" y="660" font-family="Arial" font-size="16" fill="white">• 消费者使用美团红包：平台费可能有所不同</text>
+  <text x="700" y="690" font-family="Arial" font-size="16" fill="white">• 知名品牌加盟商可享受扣点优惠（约18%）</text>
+  <text x="700" y="720" font-family="Arial" font-size="16" fill="white">• 会员等级和合作年限也会影响扣点比例</text>
+  
+  <!-- 底部扣点计算提示 -->
+  <rect x="40" y="740" width="1200" height="30" rx="15" ry="15" fill="#FFC107"/>
+  <text x="640" y="760" font-family="Arial" font-size="18" font-weight="bold" fill="#333" text-anchor="middle">扣点计算：实际收入 = 订单金额 - 配送费 - 平台佣金 - 其他费用（如有）</text>
+</svg>
