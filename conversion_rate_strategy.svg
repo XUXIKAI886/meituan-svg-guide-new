@@ -10,4 +10,64 @@
   </linearGradient>
   <rect x="0" y="0" width="1280" height="110" fill="url(#headerGradient)"/>
   <text x="640" y="65" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">美团外卖商家转化率优化策略</text>
-</rect></svg>
+
+  <!-- 左上模块：转化率类型与关键指标 -->
+  <rect x="40" y="130" width="600" height="300" rx="15" ry="15" fill="#4CAF50"/>
+  <text x="340" y="165" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">转化率类型与关键指标</text>
+  <line x1="140" y1="180" x2="540" y2="180" stroke="white" stroke-width="2"/>
+  
+  <!-- 转化率类型与关键指标 - 左上卡片 -->
+  <rect x="60" y="200" width="560" height="210" rx="10" ry="10" fill="#66BB6A"/>
+  <text x="80" y="230" font-family="Arial" font-size="16" fill="white">• 曝光转化率：商家被曝光后获得点击的比例</text>
+  <text x="80" y="260" font-family="Arial" font-size="16" fill="white">• 进店转化率：用户进入店铺后下单的比例，受满减影响大</text>
+  <text x="80" y="290" font-family="Arial" font-size="16" fill="white">• 点击转化率：点金推广中点击后转化为订单的比例</text>
+  <text x="80" y="320" font-family="Arial" font-size="16" fill="white">• 活动报名转化率：参与活动后获得订单的比例</text>
+  <text x="80" y="350" font-family="Arial" font-size="16" fill="white">• 下单转化率：用户浏览商品后产生购买行为的比例</text>
+  <text x="80" y="380" font-family="Arial" font-size="16" fill="white">• 复购率：已购买用户再次购买的比例</text>
+
+  <!-- 右上模块：套餐提高转化率策略 -->
+  <rect x="660" y="130" width="580" height="300" rx="15" ry="15" fill="#2196F3"/>
+  <text x="950" y="165" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">套餐提高转化率策略</text>
+  <line x1="760" y1="180" x2="1140" y2="180" stroke="white" stroke-width="2"/>
+  
+  <!-- 套餐提高转化率策略 - 右上卡片 -->
+  <rect x="680" y="200" width="540" height="210" rx="10" ry="10" fill="#64B5F6"/>
+  <text x="700" y="230" font-family="Arial" font-size="16" fill="white">• 缩短决策时间：套餐能缩短用户点餐思考时间，降低流失</text>
+  <text x="700" y="260" font-family="Arial" font-size="16" fill="white">• 价格心理优势：套餐价格略低于单品相加，提升下单意愿</text>
+  <text x="700" y="290" font-family="Arial" font-size="16" fill="white">• 套餐搭配合理：菜品、小吃、饮品均衡搭配提高用户满意度</text>
+  <text x="700" y="320" font-family="Arial" font-size="16" fill="white">• 多层次套餐：提供不同价格档位满足不同消费水平用户</text>
+  <text x="700" y="350" font-family="Arial" font-size="16" fill="white">• 个性化定制：为客户提供自选套餐提高用户参与感</text>
+  <text x="700" y="380" font-family="Arial" font-size="16" fill="white">• 爆款引流法：爆款+新品搭配，借助爆款提高整体转化率</text>
+
+  <!-- 左下模块：广告与推广转化率优化 -->
+  <rect x="40" y="450" width="600" height="300" rx="15" ry="15" fill="#9C27B0"/>
+  <text x="340" y="485" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">广告与推广转化率优化</text>
+  <line x1="140" y1="500" x2="540" y2="500" stroke="white" stroke-width="2"/>
+  
+  <!-- 广告与推广转化率优化 - 左下卡片 -->
+  <rect x="60" y="520" width="560" height="210" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="80" y="550" font-family="Arial" font-size="16" fill="white">• 点金推广优化：避免出价过高，根据店铺调整出价策略</text>
+  <text x="80" y="580" font-family="Arial" font-size="16" fill="white">• 匀速投放控制：选择匀速投放保证投放时间内持续曝光</text>
+  <text x="80" y="610" font-family="Arial" font-size="16" fill="white">• 精准投放时间：根据品类特点在合适时段投放推广</text>
+  <text x="80" y="640" font-family="Arial" font-size="16" fill="white">• 用户精细化设置：针对新老用户设置不同的推广优先级</text>
+  <text x="80" y="670" font-family="Arial" font-size="16" fill="white">• 铂金展位策略：品牌商家适合通过铂金展位提高转化率</text>
+  <text x="80" y="700" font-family="Arial" font-size="16" fill="white">• 关注双转率数据：优化店铺双转率(转化率、复购率)再投放</text>
+
+  <!-- 右下模块：店铺优化提高转化率 -->
+  <rect x="660" y="450" width="580" height="300" rx="15" ry="15" fill="#FF5722"/>
+  <text x="950" y="485" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">店铺优化提高转化率</text>
+  <line x1="760" y1="500" x2="1140" y2="500" stroke="white" stroke-width="2"/>
+  
+  <!-- 店铺优化提高转化率 - 右下卡片 -->
+  <rect x="680" y="520" width="540" height="210" rx="10" ry="10" fill="#FF8A65"/>
+  <text x="700" y="550" font-family="Arial" font-size="16" fill="white">• 店铺装修优化：专业logo和清晰名称提高品牌印象</text>
+  <text x="700" y="580" font-family="Arial" font-size="16" fill="white">• 菜单优化：控制分类在8个以内，添加有吸引力的描述词</text>
+  <text x="700" y="610" font-family="Arial" font-size="16" fill="white">• 满减活动设计：合理设置满减活动刺激下单转化</text>
+  <text x="700" y="640" font-family="Arial" font-size="16" fill="white">• 合理设置推荐分类：将招牌菜品、新品等按合理顺序排列</text>
+  <text x="700" y="670" font-family="Arial" font-size="16" fill="white">• 优化用户体验：开通放心吃和准时宝提升用户信任度</text>
+  <text x="700" y="700" font-family="Arial" font-size="16" fill="white">• 积极回应评价：关注评分与用户反馈提高店铺整体评价</text>
+
+  <!-- 底部流程步骤 -->
+  <rect x="40" y="770" width="1200" height="30" rx="10" ry="10" fill="#FFC107"/>
+  <text x="640" y="790" font-family="Arial" font-size="18" font-weight="bold" fill="#333" text-anchor="middle">数据分析→找出瓶颈→制定策略→实施优化→效果监测→持续改进</text>
+</svg>
