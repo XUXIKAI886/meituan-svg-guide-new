@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="780" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1280" height="780" fill="#f5f5f5"/>
+  
+  <!-- 标题区域 -->
+  <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#FF5722"/>
+    <stop offset="100%" style="stop-color:#FF9800"/>
+  </linearGradient>
+  <rect x="0" y="0" width="1280" height="110" fill="url(#headerGradient)"/>
+  <text x="640" y="55" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">美团外卖投入产出比分析</text>
+  <text x="640" y="95" font-family="Arial" font-size="22" fill="white" text-anchor="middle">优化广告投放效果，实现营销资源最大化</text>
+  
+  <!-- 品牌标签 - 左上角 -->
+  <rect x="20" y="20" width="110" height="30" rx="5" ry="5" fill="rgba(0,0,0,0.6)"/>
+  <text x="75" y="40" font-family="Arial" font-size="16" font-weight="bold" fill="white" text-anchor="middle">呈尚策划</text>
+  
+  <!-- 版权声明 - 右上角 -->
+  <rect x="1100" y="20" width="160" height="30" rx="5" ry="5" fill="rgba(0,0,0,0.6)"/>
+  <text x="1180" y="40" font-family="Arial" font-size="14" fill="white" text-anchor="middle">版权所有 盗版必究</text>
+  
+  <!-- 投入产出比基本概念区域 -->
+  <rect x="40" y="130" width="1200" height="120" rx="15" ry="15" fill="#2196F3"/>
+  <text x="640" y="165" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">投入产出比（ROI）的基本概念</text>
+  <line x1="350" y1="180" x2="930" y2="180" stroke="white" stroke-width="2"/>
+  
+  <text x="90" y="210" font-family="Arial" font-size="16" fill="white">• 定义：投入产出比是指广告投放成本与产生的销售收入之间的比率，是评估营销效果的关键指标</text>
+  <text x="90" y="240" font-family="Arial" font-size="16" fill="white">• 计算方式：ROI = (广告带来的销售收入 - 广告投入成本) / 广告投入成本</text>
+  
+  <!-- 推广方式对比区域 -->
+  <rect x="40" y="270" width="1200" height="220" rx="15" ry="15" fill="#4CAF50"/>
+  <text x="640" y="305" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">美团外卖主要推广方式ROI对比</text>
+  <line x1="350" y1="320" x2="930" y2="320" stroke="white" stroke-width="2"/>
+  
+  <!-- 铂金展位卡片 -->
+  <rect x="90" y="340" width="570" height="130" rx="10" ry="10" fill="#66BB6A"/>
+  <text x="375" y="370" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">铂金展位</text>
+  <text x="110" y="400" font-family="Arial" font-size="16" fill="white">• 计费方式：按千次曝光计费（CPM）</text>
+  <text x="110" y="430" font-family="Arial" font-size="16" fill="white">• 单次点击成本较高（约5.15元/点击）</text>
+  <text x="110" y="460" font-family="Arial" font-size="16" fill="white">• 适合：品牌推广、高利润商品、多店运营商家</text>
+  
+  <!-- 点金推广卡片 -->
+  <rect x="650" y="340" width="550" height="130" rx="10" ry="10" fill="#81C784"/>
+  <text x="925" y="370" font-family="Arial" font-size="20" font-weight="bold" fill="white" text-anchor="middle">点金推广</text>
+  <text x="670" y="400" font-family="Arial" font-size="16" fill="white">• 计费方式：按点击收费（CPC）</text>
+  <text x="670" y="430" font-family="Arial" font-size="16" fill="white">• 单次点击成本较低（约1.27元/点击）</text>
+  <text x="670" y="460" font-family="Arial" font-size="16" fill="white">• 适合：普通单店商家、注重直接订单转化的商家</text>
+  
+  <!-- 不同类型商家投入产出分析 -->
+  <rect x="40" y="510" width="580" height="220" rx="15" ry="15" fill="#9C27B0"/>
+  <text x="330" y="545" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">不同类型商家的投入产出分析</text>
+  <line x1="130" y1="560" x2="530" y2="560" stroke="white" stroke-width="2"/>
+  
+  <!-- 高利润商品商家 -->
+  <rect x="60" y="580" width="260" height="130" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="190" y="605" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">高利润商品商家</text>
+  <text x="70" y="635" font-family="Arial" font-size="14" fill="white">• 能承受较高推广成本</text>
+  <text x="70" y="660" font-family="Arial" font-size="14" fill="white">• 单品利润高，转化少也能盈利</text>
+  <text x="70" y="685" font-family="Arial" font-size="14" fill="white">• 建议：可投放铂金展位提升品牌</text>
+  
+  <!-- 低价走量商品商家 -->
+  <rect x="340" y="580" width="260" height="130" rx="10" ry="10" fill="#CE93D8"/>
+  <text x="470" y="605" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">低价走量商品商家</text>
+  <text x="350" y="635" font-family="Arial" font-size="14" fill="white">• 单品利润微薄，需高转化率</text>
+  <text x="350" y="660" font-family="Arial" font-size="14" fill="white">• 高成本推广可能压缩利润空间</text>
+  <text x="350" y="685" font-family="Arial" font-size="14" fill="white">• 建议：谨慎投放，优先考虑点金推广</text>
+  
+  <!-- 优化投入产出比的策略 -->
+  <rect x="640" y="510" width="600" height="220" rx="15" ry="15" fill="#FFC107"/>
+  <text x="940" y="545" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">优化投入产出比的策略</text>
+  <line x1="740" y1="560" x2="1140" y2="560" stroke="white" stroke-width="2"/>
+  
+  <text x="660" y="590" font-family="Arial" font-size="16" fill="white">• 出价策略：避免使用平台默认出价，取推荐出价与最低价的中位数</text>
+  <text x="660" y="620" font-family="Arial" font-size="16" fill="white">• 时段选择：集中在高峰时段（午餐/晚餐）投放，避免全天候投放</text>
+  <text x="660" y="650" font-family="Arial" font-size="16" fill="white">• 测试分析：小规模测试不同时段效果，持续优化投放策略</text>
+  <text x="660" y="680" font-family="Arial" font-size="16" fill="white">• 提升双转：优化菜单、店铺装修、用户评价，提高转化率和复购率</text>
+  <text x="660" y="710" font-family="Arial" font-size="16" fill="white">• 与平台活动配合：在平台大型促销活动期间投放，借助活动热度</text>
+  
+  <!-- 底部总结区域 -->
+  <rect x="40" y="750" width="1200" height="30" rx="10" ry="10" fill="#3F51B5"/>
+  <text x="640" y="770" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">平衡投入与产出，根据店铺类型选择合适的推广策略，实现营销资源最大化</text>
+  
+  <!-- 中心大型水印 -->
+  <text x="640" y="390" font-family="Arial" font-size="200" font-weight="bold" fill="white" opacity="0.12" text-anchor="middle" transform="rotate(-30, 640, 390)">呈尚策划</text>
+</svg> 

@@ -1,0 +1,113 @@
+<svg width="1280" height="780" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1280" height="780" fill="#f5f5f5"/>
+  
+  <!-- 标题区域 -->
+  <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#FF5722"/>
+    <stop offset="100%" style="stop-color:#FF9800"/>
+  </linearGradient>
+  <rect x="0" y="0" width="1280" height="110" fill="url(#headerGradient)"/>
+  <text x="640" y="55" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">粉丝群建设与运营指南</text>
+  <text x="640" y="95" font-family="Arial" font-size="18" fill="white" text-anchor="middle">美团外卖商家提升用户黏性与复购的核心策略</text>
+  
+  <!-- 主要内容区域 - 第一行 -->
+  <!-- 粉丝群开通步骤 -->
+  <rect x="40" y="130" width="380" height="270" rx="15" ry="15" fill="#4CAF50"/>
+  <text x="230" y="170" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">粉丝群开通步骤</text>
+  <line x1="80" y1="190" x2="380" y2="190" stroke="white" stroke-width="2"/>
+  
+  <rect x="60" y="210" width="340" height="170" rx="10" ry="10" fill="#66BB6A"/>
+  <text x="80" y="235" font-family="Arial" font-size="16" fill="white">• 步骤1：打开美团外卖商家版APP</text>
+  <text x="100" y="260" font-family="Arial" font-size="14" fill="white">  进入消息界面</text>
+  <text x="80" y="290" font-family="Arial" font-size="16" fill="white">• 步骤2：点击右上角"创建粉丝群"</text>
+  <text x="100" y="315" font-family="Arial" font-size="14" fill="white">  注意：仅针对品质和销量好的店铺开通</text>
+  <text x="80" y="345" font-family="Arial" font-size="16" fill="white">• 步骤3：编辑群介绍和进群欢迎语</text>
+  <text x="80" y="370" font-family="Arial" font-size="16" fill="white">• 步骤4：设置首次进群优惠券并完成创建</text>
+  
+  <!-- 优惠券设置建议 -->
+  <rect x="440" y="130" width="380" height="270" rx="15" ry="15" fill="#2196F3"/>
+  <text x="630" y="170" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">优惠券设置建议</text>
+  <line x1="480" y1="190" x2="780" y2="190" stroke="white" stroke-width="2"/>
+  
+  <rect x="460" y="210" width="340" height="170" rx="10" ry="10" fill="#64B5F6"/>
+  <text x="480" y="235" font-family="Arial" font-size="16" fill="white">• 首次进群优惠券</text>
+  <text x="500" y="260" font-family="Arial" font-size="14" fill="white">  建议自定义设置，关系到成本和利润</text>
+  <text x="500" y="285" font-family="Arial" font-size="14" fill="white">  推荐设置：门槛29元，金额3元</text>
+  <text x="480" y="315" font-family="Arial" font-size="16" fill="white">• 生日优惠券</text>
+  <text x="500" y="340" font-family="Arial" font-size="14" fill="white">  设置更高价值，增强用户特殊感</text>
+  <text x="480" y="370" font-family="Arial" font-size="16" fill="white">• 定期活动优惠券</text>
+  
+  <!-- 群内运营策略 -->
+  <rect x="840" y="130" width="380" height="270" rx="15" ry="15" fill="#9C27B0"/>
+  <text x="1030" y="170" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">群内运营策略</text>
+  <line x1="880" y1="190" x2="1180" y2="190" stroke="white" stroke-width="2"/>
+  
+  <rect x="860" y="210" width="340" height="170" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="880" y="235" font-family="Arial" font-size="16" fill="white">• 定期互动与福利</text>
+  <text x="900" y="260" font-family="Arial" font-size="14" fill="white">  每周至少3次互动内容</text>
+  <text x="900" y="285" font-family="Arial" font-size="14" fill="white">  月度专属优惠活动</text>
+  <text x="880" y="315" font-family="Arial" font-size="16" fill="white">• 内容策略</text>
+  <text x="900" y="340" font-family="Arial" font-size="14" fill="white">  新品预告、限时特惠、用户反馈</text>
+  <text x="880" y="370" font-family="Arial" font-size="16" fill="white">• 活跃度管理与激励</text>
+  
+  <!-- 第二行内容 -->
+  <!-- 粉丝群管理最佳实践 -->
+  <rect x="40" y="420" width="1180" height="130" rx="15" ry="15" fill="#FFC107"/>
+  <text x="640" y="455" font-family="Arial" font-size="24" font-weight="bold" fill="#333" text-anchor="middle">粉丝群管理最佳实践</text>
+  <line x1="240" y1="475" x2="1040" y2="475" stroke="#333" stroke-width="2"/>
+  
+  <circle cx="170" cy="515" r="25" fill="#333"/>
+  <text x="170" y="520" font-family="Arial" font-size="16" fill="white" text-anchor="middle">1</text>
+  <text x="170" y="555" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">规则制定</text>
+  
+  <circle cx="370" cy="515" r="25" fill="#333"/>
+  <text x="370" y="520" font-family="Arial" font-size="16" fill="white" text-anchor="middle">2</text>
+  <text x="370" y="555" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">内容规划</text>
+  
+  <circle cx="570" cy="515" r="25" fill="#333"/>
+  <text x="570" y="520" font-family="Arial" font-size="16" fill="white" text-anchor="middle">3</text>
+  <text x="570" y="555" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">激励机制</text>
+  
+  <circle cx="770" cy="515" r="25" fill="#333"/>
+  <text x="770" y="520" font-family="Arial" font-size="16" fill="white" text-anchor="middle">4</text>
+  <text x="770" y="555" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">数据分析</text>
+  
+  <circle cx="970" cy="515" r="25" fill="#333"/>
+  <text x="970" y="520" font-family="Arial" font-size="16" fill="white" text-anchor="middle">5</text>
+  <text x="970" y="555" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">问题处理</text>
+  
+  <!-- 第三行内容 -->
+  <!-- 粉丝群价值与ROI -->
+  <rect x="40" y="570" width="580" height="140" rx="15" ry="15" fill="#5C6BC0"/>
+  <text x="330" y="605" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">粉丝群价值与ROI</text>
+  <line x1="130" y1="625" x2="530" y2="625" stroke="white" stroke-width="2"/>
+  
+  <text x="80" y="655" font-family="Arial" font-size="16" fill="white">• 提高用户忠诚度与复购率（平均提升15-20%）</text>
+  <text x="80" y="680" font-family="Arial" font-size="16" fill="white">• 降低获客成本（进群用户CAC降低约30%）</text>
+  <text x="80" y="705" font-family="Arial" font-size="16" fill="white">• 提供直接用户反馈渠道</text>
+  
+  <!-- 常见问题与解决方案 -->
+  <rect x="640" y="570" width="580" height="140" rx="15" ry="15" fill="#7B1FA2"/>
+  <text x="930" y="605" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">常见问题与解决方案</text>
+  <line x1="730" y1="625" x2="1130" y2="625" stroke="white" stroke-width="2"/>
+  
+  <text x="680" y="655" font-family="Arial" font-size="16" fill="white">• 群活跃度低：增加互动频率，提供专属优惠</text>
+  <text x="680" y="680" font-family="Arial" font-size="16" fill="white">• 用户投诉处理：设立专门反馈机制，24小时响应</text>
+  <text x="680" y="705" font-family="Arial" font-size="16" fill="white">• 群数量增长缓慢：结合订单送优惠券引导加群</text>
+  
+  <!-- 底部总结区域 -->
+  <rect x="40" y="730" width="1200" height="30" rx="10" ry="10" fill="#FF9800"/>
+  <text x="640" y="750" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">建立高质量粉丝群，提升用户黏性，实现低成本高转化营销</text>
+  
+  <!-- 品牌标签 -->
+  <rect x="20" y="20" width="110" height="30" rx="5" ry="5" fill="rgba(0,0,0,0.6)"/>
+  <text x="75" y="40" font-family="Arial" font-size="16" font-weight="bold" fill="white" text-anchor="middle">呈尚策划</text>
+  
+  <!-- 版权声明 -->
+  <rect x="1100" y="20" width="160" height="30" rx="5" ry="5" fill="rgba(0,0,0,0.6)"/>
+  <text x="1180" y="40" font-family="Arial" font-size="14" fill="white" text-anchor="middle">版权所有 盗版必究</text>
+  
+  <!-- 水印 -->
+  <text x="640" y="390" font-family="Arial" font-size="200" font-weight="bold" fill="white" opacity="0.12" text-anchor="middle" transform="rotate(-30, 640, 390)">呈尚策划</text>
+</svg>

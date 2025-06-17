@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280" height="780" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1280" height="780" fill="#f5f5f5"/>
+  
+  <!-- 标题区域 -->
+  <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#FF5722"/>
+    <stop offset="100%" style="stop-color:#FF9800"/>
+  </linearGradient>
+  <rect x="0" y="0" width="1280" height="110" fill="url(#headerGradient)"/>
+  <text x="640" y="55" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">美团外卖曝光量提升策略</text>
+  <text x="640" y="95" font-family="Arial" font-size="18" fill="white" text-anchor="middle">店铺展示机会与曝光度提升的核心方法</text>
+  
+  <!-- 主要内容区域 - 第一行 -->
+  <!-- 点金推广曝光量优化 -->
+  <rect x="40" y="130" width="380" height="240" rx="15" ry="15" fill="#4CAF50"/>
+  <text x="230" y="170" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">点金推广曝光量优化</text>
+  <line x1="80" y1="190" x2="380" y2="190" stroke="white" stroke-width="2"/>
+  
+  <rect x="60" y="210" width="340" height="140" rx="10" ry="10" fill="#66BB6A"/>
+  <text x="80" y="235" font-family="Arial" font-size="16" fill="white">• 合理设置出价，避免出价过高</text>
+  <text x="80" y="265" font-family="Arial" font-size="16" fill="white">• 选择匀速投放，保证持续曝光</text>
+  <text x="80" y="295" font-family="Arial" font-size="16" fill="white">• 提前15-30分钟开启高峰期推广</text>
+  <text x="80" y="325" font-family="Arial" font-size="16" fill="white">• 根据双转率优化店铺基础曝光</text>
+  
+  <!-- 铂金展位曝光策略 -->
+  <rect x="440" y="130" width="380" height="240" rx="15" ry="15" fill="#2196F3"/>
+  <text x="630" y="170" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">铂金展位曝光策略</text>
+  <line x1="480" y1="190" x2="780" y2="190" stroke="white" stroke-width="2"/>
+  
+  <rect x="460" y="210" width="340" height="140" rx="10" ry="10" fill="#64B5F6"/>
+  <text x="480" y="235" font-family="Arial" font-size="16" fill="white">• 主要位于美团首页商家列表顶部</text>
+  <text x="480" y="265" font-family="Arial" font-size="16" fill="white">• 利用大幅图文信息聚焦店铺</text>
+  <text x="480" y="295" font-family="Arial" font-size="16" fill="white">• 适合品牌商家提升知名度</text>
+  <text x="480" y="325" font-family="Arial" font-size="16" fill="white">• 按千次曝光计费，合理控制成本</text>
+  
+  <!-- 曝光时段优化 -->
+  <rect x="840" y="130" width="380" height="240" rx="15" ry="15" fill="#9C27B0"/>
+  <text x="1030" y="170" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">曝光时段优化</text>
+  <line x1="880" y1="190" x2="1180" y2="190" stroke="white" stroke-width="2"/>
+  
+  <rect x="860" y="210" width="340" height="140" rx="10" ry="10" fill="#BA68C8"/>
+  <text x="880" y="235" font-family="Arial" font-size="16" fill="white">• 晚上19点-22点是流量高峰时段</text>
+  <text x="880" y="265" font-family="Arial" font-size="16" fill="white">• 工作日午休时间（12-13点）增曝光</text>
+  <text x="880" y="295" font-family="Arial" font-size="16" fill="white">• 根据用户年龄群体调整投放时间</text>
+  <text x="880" y="325" font-family="Arial" font-size="16" fill="white">• 大型促销活动期间全天加强曝光</text>
+  
+  <!-- 第二行内容 -->
+  <!-- 曝光量提升五大因素 -->
+  <rect x="40" y="390" width="1180" height="140" rx="15" ry="15" fill="#FFC107"/>
+  <text x="640" y="425" font-family="Arial" font-size="24" font-weight="bold" fill="#333" text-anchor="middle">曝光量提升五大关键因素</text>
+  <line x1="240" y1="445" x2="1040" y2="445" stroke="#333" stroke-width="2"/>
+  
+  <circle cx="170" cy="485" r="25" fill="#333"/>
+  <text x="170" y="490" font-family="Arial" font-size="16" fill="white" text-anchor="middle">1</text>
+  <text x="170" y="525" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">店铺品质评分</text>
+  
+  <circle cx="370" cy="485" r="25" fill="#333"/>
+  <text x="370" y="490" font-family="Arial" font-size="16" fill="white" text-anchor="middle">2</text>
+  <text x="370" y="525" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">营销投放策略</text>
+  
+  <circle cx="570" cy="485" r="25" fill="#333"/>
+  <text x="570" y="490" font-family="Arial" font-size="16" fill="white" text-anchor="middle">3</text>
+  <text x="570" y="525" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">店铺装修质量</text>
+  
+  <circle cx="770" cy="485" r="25" fill="#333"/>
+  <text x="770" y="490" font-family="Arial" font-size="16" fill="white" text-anchor="middle">4</text>
+  <text x="770" y="525" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">用户评价管理</text>
+  
+  <circle cx="970" cy="485" r="25" fill="#333"/>
+  <text x="970" y="490" font-family="Arial" font-size="16" fill="white" text-anchor="middle">5</text>
+  <text x="970" y="525" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">活动参与度</text>
+  
+  <!-- 第三行内容 -->
+  <!-- 商家类型与曝光策略 -->
+  <rect x="40" y="550" width="580" height="160" rx="15" ry="15" fill="#5C6BC0"/>
+  <text x="330" y="585" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">商家类型与曝光策略</text>
+  <line x1="130" y1="605" x2="530" y2="605" stroke="white" stroke-width="2"/>
+  
+  <text x="80" y="635" font-family="Arial" font-size="16" fill="white">• 品牌商家：铂金展位提升品牌知名度</text>
+  <text x="80" y="665" font-family="Arial" font-size="16" fill="white">• 普通单店：点金推广提升曝光性价比</text>
+  <text x="80" y="695" font-family="Arial" font-size="16" fill="white">• 小型品类商家：高峰期精准推广</text>
+  <text x="80" y="725" font-family="Arial" font-size="16" fill="white">• 区域领先商家：活用自身优势获曝光</text>
+  
+  <!-- 店铺优化提升自然曝光 -->
+  <rect x="640" y="550" width="580" height="160" rx="15" ry="15" fill="#7B1FA2"/>
+  <text x="930" y="585" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">店铺优化提升自然曝光</text>
+  <line x1="730" y1="605" x2="1130" y2="605" stroke="white" stroke-width="2"/>
+  
+  <text x="680" y="635" font-family="Arial" font-size="16" fill="white">• 优化店铺名称和logo，提高点击率</text>
+  <text x="680" y="665" font-family="Arial" font-size="16" fill="white">• 提升菜品质量和评分，改善排名</text>
+  <text x="680" y="695" font-family="Arial" font-size="16" fill="white">• 专业店铺装修，强化品牌形象</text>
+  <text x="680" y="725" font-family="Arial" font-size="16" fill="white">• 管理好用户评价，增加自然推荐</text>
+  
+  <!-- 底部总结区域 -->
+  <rect x="40" y="730" width="1200" height="30" rx="10" ry="10" fill="#FF9800"/>
+  <text x="640" y="750" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">合理搭配投放策略与店铺基础优化，提升曝光量并转化为实际订单增长</text>
+  
+  <!-- 品牌标签 -->
+  <rect x="20" y="20" width="110" height="30" rx="5" ry="5" fill="rgba(0,0,0,0.6)"/>
+  <text x="75" y="40" font-family="Arial" font-size="16" font-weight="bold" fill="white" text-anchor="middle">呈尚策划</text>
+  
+  <!-- 版权声明 -->
+  <rect x="1100" y="20" width="160" height="30" rx="5" ry="5" fill="rgba(0,0,0,0.6)"/>
+  <text x="1180" y="40" font-family="Arial" font-size="14" fill="white" text-anchor="middle">版权所有 盗版必究</text>
+  
+  <!-- 水印 -->
+  <text x="640" y="390" font-family="Arial" font-size="200" font-weight="bold" fill="white" opacity="0.12" text-anchor="middle" transform="rotate(-30, 640, 390)">呈尚策划</text>
+</svg>

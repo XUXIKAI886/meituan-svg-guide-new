@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美团外卖运营知识SVG图表幻灯片</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+            background-color: #f5f5f5;
+            overflow: hidden;
+        }
+        .slideshow-container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+        .slide {
+            display: none;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .slide.active {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .slide object {
+            max-width: 95%;
+            max-height: 95%;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            background-color: white;
+        }
+        .navigation {
+            position: fixed;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 10;
+            background-color: rgba(255,255,255,0.8);
+            padding: 10px 0;
+            border-radius: 30px;
+            width: 320px;
+            margin: 0 auto;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .nav-btn {
+            background-color: #FF9800;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin: 0 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            opacity: 0.9;
+            transition: all 0.3s;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .nav-btn:hover {
+            opacity: 1;
+            transform: translateY(-2px);
+        }
+        .slide-counter {
+            position: fixed;
+            top: 20px;
+            right: 160px;
+            background-color: rgba(255, 152, 0, 0.9);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 16px;
+            z-index: 10;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            font-weight: bold;
+        }
+        .title-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(90deg, rgba(255,87,34,0.9) 0%, rgba(255,152,0,0.9) 100%);
+            color: white;
+            padding: 12px 20px;
+            text-align: center;
+            z-index: 10;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .slide-title {
+            margin: 0;
+            font-size: 20px;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+        .brand-logo {
+            position: absolute;
+            right: 30px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            background-color: rgba(0,0,0,0.2);
+            padding: 3px 10px;
+            border-radius: 15px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+            letter-spacing: 1px;
+        }
+        .progress-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            height: 5px;
+            background: linear-gradient(90deg, #FF9800, #FF5722);
+            z-index: 11;
+            transition: width 0.3s;
+            box-shadow: 0 -1px 3px rgba(0,0,0,0.1);
+        }
+        .fullscreen-btn {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background-color: rgba(255, 152, 0, 0.9);
+            color: white;
+            border: none;
+            padding: 5px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+            z-index: 10;
+            transition: all 0.3s;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            font-weight: bold;
+        }
+        .fullscreen-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        /* 触摸滑动功能样式 */
+        .touch-indicator {
+            position: fixed;
+            top: 50%;
+            width: 50px;
+            height: 50px;
+            background-color: rgba(255, 152, 0, 0.7);
+            border-radius: 50%;
+            display: none;
+            transform: translateY(-50%);
+            z-index: 100;
+            pointer-events: none;
+            box-shadow: 0 0 15px rgba(255, 152, 0, 0.5);
+        }
+        .touch-indicator.left {
+            left: 20px;
+        }
+        .touch-indicator.right {
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slideshow-container">
+        <div class="progress-bar" id="progressBar"></div>
+        <div class="title-bar">
+            <h2 class="slide-title" id="slideTitle">美团外卖运营知识SVG图表</h2>
+            <div class="brand-logo">@呈尚策划</div>
+        </div>
+        <div class="slide-counter" id="slideCounter">1 / 22</div>
+        <button class="fullscreen-btn" id="fullscreenBtn">全屏</button>
+        
+        <!-- 触摸滑动指示器 -->
+        <div class="touch-indicator left" id="leftIndicator"></div>
+        <div class="touch-indicator right" id="rightIndicator"></div>
+
+        <!-- 幻灯片内容 -->
+        <div class="slide active" data-title="概览图表">
+            <object data="01_overview_updated.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="slide" data-title="客户分析">
+            <object data="02_customer_analysis.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="slide" data-title="配送规则">
+            <object data="03_delivery_rules.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="slide" data-title="店铺装修">
+            <object data="04_store_decoration.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="slide" data-title="粉丝群运营">
+            <object data="05_fans_community.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="slide" data-title="社区管理">
+            <object data="06_community_management.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="slide" data-title="套餐设计">
+            <object data="07_package_design.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="slide" data-title="套餐流程">
+            <object data="08_package_process.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="slide" data-title="推广策略">
+            <object data="09_promotion_strategies_updated.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="slide" data-title="店铺优化">
+            <object data="10_store_optimization_updated.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="slide" data-title="活动设置">
+            <object data="11_huodong_simple.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="slide" data-title="扣点规则">
+            <object data="12_koudianguize_simple.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="slide" data-title="天天神券">
+            <object data="13_tiantianshenquan_simple.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="slide" data-title="营销策略">
+            <object data="14_marketing_strategy.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="slide" data-title="数据分析策略">
+            <object data="15_data_analysis_strategy.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="slide" data-title="客单价策略">
+            <object data="16_customer_price_strategy.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="slide" data-title="转化率策略">
+            <object data="17_conversion_rate_strategy.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="slide" data-title="转化率分析">
+            <object data="18_conversion_rate.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="slide" data-title="曝光优化">
+            <object data="19_exposure_optimization.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="slide" data-title="复购率">
+            <object data="20_repurchase_rate.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="slide" data-title="店铺评分">
+            <object data="21_store_rating.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="slide" data-title="ROI分析">
+            <object data="22_roi_analysis.svg" type="image/svg+xml"></object>
+        </div>
+
+        <div class="navigation">
+            <button class="nav-btn" id="prevBtn">上一张</button>
+            <button class="nav-btn" id="playPauseBtn">自动播放</button>
+            <button class="nav-btn" id="nextBtn">下一张</button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const slides = document.querySelectorAll('.slide');
+            const totalSlides = slides.length;
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const playPauseBtn = document.getElementById('playPauseBtn');
+            const slideCounter = document.getElementById('slideCounter');
+            const slideTitle = document.getElementById('slideTitle');
+            const progressBar = document.getElementById('progressBar');
+            const fullscreenBtn = document.getElementById('fullscreenBtn');
+            const leftIndicator = document.getElementById('leftIndicator');
+            const rightIndicator = document.getElementById('rightIndicator');
+            
+            let currentSlide = 0;
+            let isPlaying = false;
+            let slideInterval;
+            const autoPlayDelay = 8000; // 8秒自动切换
+            
+            // 更新幻灯片
+            function showSlide(n) {
+                slides[currentSlide].classList.remove('active');
+                currentSlide = (n + totalSlides) % totalSlides;
+                slides[currentSlide].classList.add('active');
+                updateSlideInfo();
+                updateProgressBar();
+            }
+            
+            // 更新幻灯片信息
+            function updateSlideInfo() {
+                slideCounter.textContent = `${currentSlide + 1} / ${totalSlides}`;
+                const currentTitle = slides[currentSlide].getAttribute('data-title');
+                slideTitle.textContent = currentTitle || '美团外卖运营知识SVG图表';
+            }
+            
+            // 更新进度条
+            function updateProgressBar() {
+                const progress = ((currentSlide + 1) / totalSlides) * 100;
+                progressBar.style.width = `${progress}%`;
+            }
+            
+            // 自动播放
+            function startAutoPlay() {
+                isPlaying = true;
+                playPauseBtn.textContent = '暂停';
+                slideInterval = setInterval(() => {
+                    showSlide(currentSlide + 1);
+                }, autoPlayDelay);
+            }
+            
+            // 停止自动播放
+            function stopAutoPlay() {
+                isPlaying = false;
+                playPauseBtn.textContent = '自动播放';
+                clearInterval(slideInterval);
+            }
+            
+            // 按钮事件
+            prevBtn.addEventListener('click', () => {
+                stopAutoPlay();
+                showSlide(currentSlide - 1);
+            });
+            
+            nextBtn.addEventListener('click', () => {
+                stopAutoPlay();
+                showSlide(currentSlide + 1);
+            });
+            
+            playPauseBtn.addEventListener('click', () => {
+                if (isPlaying) {
+                    stopAutoPlay();
+                } else {
+                    startAutoPlay();
+                }
+            });
+            
+            // 键盘控制
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'ArrowLeft') {
+                    stopAutoPlay();
+                    showSlide(currentSlide - 1);
+                } else if (e.key === 'ArrowRight') {
+                    stopAutoPlay();
+                    showSlide(currentSlide + 1);
+                } else if (e.key === ' ') {
+                    e.preventDefault(); // 防止空格键滚动页面
+                    if (isPlaying) {
+                        stopAutoPlay();
+                    } else {
+                        startAutoPlay();
+                    }
+                }
+            });
+            
+            // 全屏功能
+            fullscreenBtn.addEventListener('click', () => {
+                if (!document.fullscreenElement) {
+                    document.documentElement.requestFullscreen().catch(err => {
+                        console.log(`全屏模式错误: ${err.message}`);
+                    });
+                    fullscreenBtn.textContent = '退出全屏';
+                } else {
+                    if (document.exitFullscreen) {
+                        document.exitFullscreen();
+                        fullscreenBtn.textContent = '全屏';
+                    }
+                }
+            });
+            
+            // 监听全屏变化
+            document.addEventListener('fullscreenchange', () => {
+                if (document.fullscreenElement) {
+                    fullscreenBtn.textContent = '退出全屏';
+                } else {
+                    fullscreenBtn.textContent = '全屏';
+                }
+            });
+
+            // 触摸滑动功能
+            let touchStartX = 0;
+            let touchEndX = 0;
+            
+            document.addEventListener('touchstart', (e) => {
+                touchStartX = e.changedTouches[0].screenX;
+            });
+            
+            document.addEventListener('touchend', (e) => {
+                touchEndX = e.changedTouches[0].screenX;
+                handleSwipe();
+            });
+            
+            function handleSwipe() {
+                const minSwipeDistance = 50;
+                if (touchEndX < touchStartX - minSwipeDistance) {
+                    // 向左滑动，显示下一张
+                    showSwipeIndicator('right');
+                    stopAutoPlay();
+                    showSlide(currentSlide + 1);
+                }
+                
+                if (touchEndX > touchStartX + minSwipeDistance) {
+                    // 向右滑动，显示上一张
+                    showSwipeIndicator('left');
+                    stopAutoPlay();
+                    showSlide(currentSlide - 1);
+                }
+            }
+            
+            function showSwipeIndicator(direction) {
+                const indicator = direction === 'left' ? leftIndicator : rightIndicator;
+                indicator.style.display = 'block';
+                setTimeout(() => {
+                    indicator.style.display = 'none';
+                }, 300);
+            }
+            
+            // 添加鼠标滚轮支持
+            document.addEventListener('wheel', (e) => {
+                if (e.deltaY > 0) {
+                    stopAutoPlay();
+                    showSlide(currentSlide + 1);
+                } else {
+                    stopAutoPlay();
+                    showSlide(currentSlide - 1);
+                }
+            }, { passive: true });
+            
+            // 初始化
+            updateSlideInfo();
+            updateProgressBar();
+        });
+    </script>
+</body>
+</html> 
